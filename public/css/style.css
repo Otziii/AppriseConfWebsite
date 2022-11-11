@@ -297,6 +297,10 @@ a span.ti-twitter-alt {
 }
 
 .sponsor-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 2px solid gray;
     width: 300px;
     border-radius: 10px;
@@ -308,6 +312,10 @@ a span.ti-twitter-alt {
 .sponsor-card img {
     max-width: 100%;
     max-height: 180px;
+}
+
+.sponsor-card .btn {
+    margin-top: auto;
 }
 
 .sponsor-card.silver {
