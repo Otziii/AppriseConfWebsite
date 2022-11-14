@@ -1,0 +1,6 @@
+Conference colors:
+
+primaryColor: #9B00E3
+secondaryColor: #002647
+tertiaryColor: white
+darkTextColor: #383737
