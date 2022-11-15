@@ -403,6 +403,10 @@ ul.speaker-social li a:hover {
     margin-bottom: 0;
 }
 
+.news-letter-container {
+    margin: 0;
+}
+
 .footer-credit {
     padding: 40px;
 }
@@ -590,4 +594,16 @@ ul.footer-menu li a:hover {
     .sponsor-card.gold {
         order: 0;
     }
+}
+
+/* MailChimp */
+#mc_embed_signup {
+    background: #3a3a3a;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    max-width: 500px;
+}
+
+#mc_embed_signup input {
+    color: var(--darkTextColor);
 }

@@ -1,0 +1,16 @@
+p {
+    width: 100%;
+}
+
+.coc-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.coc-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
