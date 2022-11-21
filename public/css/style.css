@@ -358,8 +358,20 @@ ul.speaker-social li a:hover {
     margin: 20px;
 }
 
-.gold img {
+.gold-logos a {
+    height: 200px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.gold-logos img {
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .silver img {
@@ -376,6 +388,10 @@ ul.speaker-social li a:hover {
 
 .venue-link:visited {
     color: lightgray;
+}
+
+.organisation-container {
+    margin: 0 40px;
 }
 
 .orgs-container {
