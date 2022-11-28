@@ -78,6 +78,13 @@ a:hover, a:focus, a:active, a:visited {
     margin-left: 20px;
 }
 
+.hr-line {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    margin: 30px 0;
+}
+
 /* ------------------
 	Navigation 
 ------------------ */
@@ -176,10 +183,16 @@ a:hover, a:focus, a:active, a:visited {
 .info-container {
     background: var(--secondaryColor);
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .info-container span {
     color: white;
+}
+
+.conf-info {
+    margin: 0 40px;
 }
 
 .speaker h3 {
