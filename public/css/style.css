@@ -321,6 +321,10 @@ ul.speaker-social li a:hover {
     max-height: 180px;
 }
 
+.silver img, .community img {
+    height: 100px;
+}
+
 .sponsor-card .btn {
     margin-top: auto;
     padding: 20px 40px;
@@ -354,32 +358,41 @@ ul.speaker-social li a:hover {
     flex-wrap: wrap;
 }
 
+.sponsor-tier-container a {
+    border-radius: 10px;
+}
+
+.sponsor-tier-container a:hover {
+    box-shadow: 0 4px 8px darkgray;
+}
+
 .sponsor-tier-container img {
     margin: 20px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.sponsor-tier-container a {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 .gold-logos a {
     height: 200px;
     width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
 }
 
-.gold-logos img {
-    height: 100%;
-    width: 100%;
-    max-width: 200px;
-    max-height: 200px;
+.silver-logos a {
+    width: 150px;
+    height: 150px;
 }
 
-.silver img {
+.community-logos a {
     width: 100px;
-}
-
-.community img {
-    width: 75px;
+    height: 100px;
 }
 
 .venue-link {
