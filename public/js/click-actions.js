@@ -23,4 +23,19 @@ $(document).ready(function (e) {
             menuopen = false
         }
     });
+
+    $(".speaker-card").click(function (e) {
+        let speakerId = e.currentTarget.id;
+        $(".speaker-modal-card").css({"display": "none"});
+
+        if (speakerId) {
+            $(".speaker-modal-container").css({"display": "flex"});
+            $("." + speakerId).css({"display": "flex"})
+        }
+    })
+
+    $(".back-arrow").click(function (e) {
+        $(".speaker-modal-container").css({"display": "none"});
+        $(".speaker-modal-card").css({"display": "none"});
+    });
 });
