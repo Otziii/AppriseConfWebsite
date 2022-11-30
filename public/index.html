@@ -186,7 +186,7 @@
 
             <div class="speaker-modal-container">
                 <div class="speaker-modal-card speaker-1">
-                    <span class="back-arrow">← back</span>
+                    <span class="back-arrow">← close</span>
 
                     <img src="img/speakers/wei-meng-lee.png" class="speaker-img" alt="Image of speaker">
                     <span class="speaker-keynote">Keynote</span>
@@ -199,8 +199,8 @@
                         Learning Solutions, a technology company specializing in
                         hands-on training on the latest technologies. He is an established developer and trainer
                         specializing in Data Science, Blockchain, and Mobile technologies.
-                    </p>
-                    <p>
+                        <br>
+                        <br>
                         Wei-Meng speaks regularly at international conferences and has authored and co-authored numerous
                         books on topics ranging from blockchain to machine learning. He currently writes a regular
                         column for Towards Data Science and Code Magazine. He is also the author of Beginning Ethereum
@@ -262,30 +262,15 @@
         <br>
         <a href="https://forms.gle/63C6sSAbzFLFzpX17" target="_blank" class="btn btn-lg btn-red">I wish to speak! <span
                 class="ti-arrow-right"></span></a>
-
-        <!--
-        <div class="col-md-4 col-sm-6 feature">
-            <img src="img/speaker-1.png" class="speaker-img">
-            <h3>Simon Collins</h3>
-            <p>Simon is designer and partner at Fictivekin and has worked in a variety of situations for bands,
-                record
-                labels, governments, polar explorers, and most other things...</p>
-            <ul class="speaker-social">
-                <li><a href="#"><span class="ti-facebook"></span></a></li>
-                <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-                <li><a href="#"><span class="ti-linkedin"></span></a></li>
-            </ul>
-        </div>
-        -->
     </div>
     <!-- End: Speakers -->
 
     <!-- Start: Schedule -->
-    <div class="container">
+    <div class="schedule-container">
         <div class="row me-row schedule" id="schedule">
             <h1 class="row-title content-ct">Event Schedule</h1>
 
-            <div class="col-md-12">
+            <div>
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation">
@@ -324,31 +309,185 @@
                         <!--                                </div>-->
                         <!--                            </div>-->
                         <!--                        </div>-->
+
                     </div>
+
                     <div role="tabpanel" class="tab-pane fade in active" id="day-2">
-                        <h4>Conference schedule will be announced soon!</h4>
-                        <!--
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="#">
-                                            <img class="media-object" src="img/speaker-4.png" alt="...">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">10am to 10:30am</h4>
-                                        <h5>MAKING DOG FOOD PART OF A BALANCED DIET</h5>
-                                        <p>Simon is designer and partner at Fictivekin and has worked in a variety of
-                                            situations for bands, record labels, governments, polar explorers, and most
-                                            other things. </p>
+                        <div class="conference-schedule">
+                            <div class="slot-time">
+                                08:00 to 08:45
+                            </div>
+                            <div class="slot-container">
+                                <h2>Check-in & breakfast</h2>
+                            </div>
+
+                            <div class="tracks-header">
+                                <span class="keynote-header">KEYNOTE</span>
+                            </div>
+                            <div class="slot-time">
+                                09:00 to 09:45
+                            </div>
+
+                            <div class="slot-small-label keynote-header">Keynote</div>
+                            <div class="slot-entry keynote" id="talk-1">
+                                <div class="slot-speaker">
+                                    <img class="speaker-img" src="img/speakers/wei-meng-lee.png"
+                                         alt="Picture of speaker">
+                                    <span><b>Wei-Meng Lee</b></span>
+                                </div>
+                                <div class="slot-entry-body">
+                                    <h5>The Only Easy Day Was Yesterday, and How to Survive Today and Tomorrow</h5>
+                                    <p>
+                                        If you are a developer, you are like a member of the Navy SEALs - you need
+                                        to arm yourself with a myriad of skills in order to execute your mission
+                                        successfully. Coupled with the rapid advancement in software and hardware
+                                        technologies, every day is a learning day.
+                                    </p>
+                                    <div class="slot-entry-tags">
+                                        <span>INSPIRATIONAL</span>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="tracks-header">
+                                <span class="soft-header">SOFT TRACK</span>
+                                <span class="hard-header">HARD TRACK</span>
+                            </div>
+
+                            <div class="slot-time">
+                                10:00 to 10:45
+                            </div>
+                            <div class="slot-container">
+                                <h2>To be decided!</h2>
+                            </div>
+
+                            <div class="slot-time">
+                                11:00 to 11:45
+                            </div>
+
+                            <div class="slot-container">
+                                <h2>To be decided!</h2>
+                                <!--                                <div class="slot-small-label soft-header">Soft</div>-->
+                                <!--                                <div class="slot-entry track-soft">-->
+                                <!--                                    <div class="slot-speaker">-->
+                                <!--                                        <img class="speaker-img" src="img/crew/oivind.png" alt="Picture of speaker">-->
+                                <!--                                        <span><b>Øivind Jorfald</b></span>-->
+                                <!--                                        <br>-->
+                                <!--                                        <img class="speaker-img" src="img/crew/ewa.jpeg" alt="Picture of speaker">-->
+                                <!--                                        <span><b>Ewa Kabza</b></span>-->
+                                <!--                                    </div>-->
+                                <!--                                    <div class="slot-entry-body">-->
+                                <!--                                        <h5>How to run a conference</h5>-->
+                                <!--                                        <p>-->
+                                <!--                                            If you are a developer, you are like a member of the Navy SEALs - you need-->
+                                <!--                                            to arm yourself with a myriad of skills in order to execute your mission-->
+                                <!--                                            successfully. Coupled with the rapid advancement in software and hardware-->
+                                <!--                                            technologies, every day is a learning day.-->
+                                <!--                                        </p>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+
+                                <!--                                <div class="slot-small-label hard-header">Hard</div>-->
+                                <!--                                <div class="slot-entry track-hard">-->
+                                <!--                                    <div class="slot-entry-body">-->
+                                <!--                                        <h5>How to ruin a conference</h5>-->
+                                <!--                                        <p>-->
+                                <!--                                            If you are a developer, you are like a member of the Navy SEALs - you need-->
+                                <!--                                            to arm yourself with a myriad of skills in order to execute your mission-->
+                                <!--                                            successfully. Coupled with the rapid advancement in software and hardware-->
+                                <!--                                            technologies, every day is a learning day.-->
+                                <!--                                        </p>-->
+                                <!--                                    </div>-->
+                                <!--                                    <div class="slot-speaker">-->
+                                <!--                                        <img class="speaker-img" src="img/crew/olaf.jpeg" alt="Picture of speaker">-->
+                                <!--                                        <span><b>Olaf Andreas Øvrum</b></span>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                            </div>
+
+                            <div class="slot-time">
+                                12:00 to 13:00
+                            </div>
+                            <div class="slot-container">
+                                <h2>Lunch! 🥙</h2>
+                            </div>
+
+                            <div class="slot-time">
+                                13:00 to 13:45
+                            </div>
+                            <div class="slot-container">
+                                <h2>To be decided!</h2>
+                            </div>
+
+                            <div class="slot-time">
+                                14:00 to 14:45
+                            </div>
+                            <div class="slot-container">
+                                <h2>To be decided!</h2>
+                            </div>
+
+                            <div class="slot-time">
+                                15:00 to 15:45
+                            </div>
+                            <div class="slot-container">
+                                <h2>To be decided!</h2>
+                            </div>
+
+                            <div class="slot-time">
+                                16:00 to 16:45
+                            </div>
+                            <div class="slot-container">
+                                <h2>To be decided!</h2>
+                            </div>
+
+                            <div class="slot-time">
+                                17:00 to 18:00
+                            </div>
+                            <div class="slot-container">
+                                <h2>Food & drinks! 🍕🍹</h2>
+                            </div>
+
+                            <div class="slot-time">
+                                18:00 to 23:00
+                            </div>
+                            <div class="slot-container">
+                                <h2>Party! 🎺🕺💃🏽</h2>
+                            </div>
                         </div>
-                        -->
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="talk-modal-container">
+        <div class="speaker-modal-card talk-1">
+            <span class="back-arrow">← close</span>
+            <h2>The Only Easy Day Was Yesterday, and How to Survive Today and Tomorrow</h2>
+
+            <p>
+                If you are a developer, you are like a member of the Navy SEALs - you need to arm yourself with a myriad
+                of skills in order to execute your mission successfully. Coupled with the rapid advancement in software
+                and hardware technologies, every day is a learning day.
+                <br>
+                <br>
+                In this keynote, veteran author and developer Wei-Meng Lee will share with you his development journey
+                for the past two decades, beginning with his early days as a C developer for Apple System 7, to the
+                current days as a Web3 developer and trainer. Wei-Meng will share his ups and downs for the past 20
+                years (from the early days of desktop apps development, mobile development, data science, and more
+                recently, blockchain), and how to keep learning in an industry where things get outdated as soon as they
+                are introduced. If you are overwhelmed with new skills to learn, Wei-Meng will share with you some tips
+                on how to learn quickly, and how to keep yourself motivated. If Wei-Meng can do it, so can you!
+            </p>
+
+            <div class="slot-entry-tags">
+                <span>INSPIRATIONAL</span>
+            </div>
+
+            <div class="slot-speaker" id="speaker-1">
+                <img class="speaker-img" src="img/speakers/wei-meng-lee.png"
+                     alt="Picture of speaker">
+                <span><b>Wei-Meng Lee</b></span>
             </div>
         </div>
     </div>
@@ -361,7 +500,8 @@
             <br>
             <div class="sponsor-cards row">
                 <div class="sponsor-card silver">
-                    <img class="card-img-top" src="img/website/screen.png" alt="Logo sponsor illustration of computer">
+                    <img class="card-img-top" src="img/website/screen.png"
+                         alt="Logo sponsor illustration of computer">
                     <h2 class="card-title"><b>Logo package</b></h2>
                     <p class="card-text"><i>Show your support!</i></p>
                     <ul class="content-left">
@@ -373,11 +513,13 @@
                     <br>
                     <p>We are also looking for specific sponsors! (barista, games, party, etc.)</p>
                     <br>
-                    <a href="mailto:contact@apprise.no?subject=Interested in logo package!" class="btn btn-lg btn-red">I'm
+                    <a href="mailto:contact@apprise.no?subject=Interested in logo package!"
+                       class="btn btn-lg btn-red">I'm
                         interested!</a>
                 </div>
                 <div class="sponsor-card gold">
-                    <img class="card-img-top" src="img/website/rocket2.png" alt="Stand sponsor illustration of rocket">
+                    <img class="card-img-top" src="img/website/rocket2.png"
+                         alt="Stand sponsor illustration of rocket">
                     <h2 class="card-title"><b>Stand package</b></h2>
                     <p class="card-text"><i>Our best option!</i></p>
                     <ul class="content-left">
@@ -389,7 +531,8 @@
                     <br>
                     <p>Only limited spots available!</p>
                     <br>
-                    <a href="mailto:contact@apprise.no?subject=Interested in stand package!" class="btn btn-lg btn-red">
+                    <a href="mailto:contact@apprise.no?subject=Interested in stand package!"
+                       class="btn btn-lg btn-red">
                         I want to know more!
                     </a>
                 </div>
@@ -476,7 +619,8 @@
             <a href="https://www.osloeventhub.com/home" target="_blank" class="venue-link">Oslo Event Hub</a>
         </h3>
         <h4>
-            Oslo Event Hub is a unique event venue that has hosted all kinds of events since 2015. In the beginning of
+            Oslo Event Hub is a unique event venue that has hosted all kinds of events since 2015. In the beginning
+            of
             2022, they closed for a major upgrade and is now reopened with a completely new look and feel.
         </h4>
         <br>
@@ -492,10 +636,13 @@
     <div class="row me-row content-ct speaker" id="team">
         <div class="organisation-container">
             <h2 class="row-title">About us</h2>
-            <p>Apprise Conf is run by a team of enthusiasts in the Norwegian tech industry. The conferences sole purpose
-                is to host an event where people with the same interests can share knowledge, get to know each other and
+            <p>Apprise Conf is run by a team of enthusiasts in the Norwegian tech industry. The conferences sole
+                purpose
+                is to host an event where people with the same interests can share knowledge, get to know each other
+                and
                 have fun!</p>
-            <p>The conference organization is a <b>non-profit legal organization</b> registered as Apprise (org. number:
+            <p>The conference organization is a <b>non-profit legal organization</b> registered as Apprise (org.
+                number:
                 930
                 240 036). Any profit from the
                 conference will be used for other related community events and next year's conference.</p>
@@ -557,7 +704,8 @@
                     </li>
                     <li><a href="https://www.linkedin.com/in/mhadaily/" target="_blank"><span
                             class="ti-linkedin"></span></a></li>
-                    <li><a href="https://github.com/mhadaily" target="_blank"><span class="ti-github"></span></a></li>
+                    <li><a href="https://github.com/mhadaily" target="_blank"><span class="ti-github"></span></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -605,7 +753,8 @@
                             </div>
                             <div class="optionalParent">
                                 <div class="clear foot">
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                    <input type="submit" value="Subscribe" name="subscribe"
+                                           id="mc-embedded-subscribe"
                                            class="button">
                                     <p class="brandingLogo">
                                         <a href="https://eepurl.com/idKJDz"
@@ -649,7 +798,8 @@
                 <li><a href="https://www.facebook.com/profile.php?id=100087765727153" target="_blank"><span
                         class="ti-facebook"></span></a>
                 </li>
-                <li><a href="https://twitter.com/AppriseConf" target="_blank"><span class="ti-twitter-alt"></span></a>
+                <li><a href="https://twitter.com/AppriseConf" target="_blank"><span
+                        class="ti-twitter-alt"></span></a>
                 </li>
                 <li><a href="https://www.linkedin.com/company/apprise-conf/" target="_blank"><span
                         class="ti-linkedin"></span></a></li>

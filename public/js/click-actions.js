@@ -35,7 +35,31 @@ $(document).ready(function (e) {
     })
 
     $(".back-arrow").click(function (e) {
+        clearModals()
+    });
+
+    $(".slot-entry").click(function (e) {
+        let talkId = e.currentTarget.id;
+
+        if (talkId) {
+            $(".talk-modal-container").css({"display": "flex"});
+            $("." + talkId).css({"display": "flex"})
+        }
+    })
+
+    $(".slot-speaker").click(function (e) {
+        let speakerId = e.currentTarget.id;
+        clearModals()
+
+        if (speakerId) {
+            $(".speaker-modal-container").css({"display": "flex"});
+            $("." + speakerId).css({"display": "flex"})
+        }
+    })
+
+    function clearModals() {
         $(".speaker-modal-container").css({"display": "none"});
         $(".speaker-modal-card").css({"display": "none"});
-    });
+        $(".talk-modal-container").css({"display": "none"});
+    }
 });

@@ -1,6 +1,7 @@
 :root {
     --primaryColor: #9B00E3;
     --secondaryColor: #002647;
+    --secondaryColor50: rgba(0, 38, 71, 0.5);
     --tertiaryColor: white;
     --darkTextColor: #383737;
 }
@@ -202,7 +203,7 @@ a:hover, a:focus, a:active, a:visited {
     flex-wrap: wrap;
 }
 
-.speaker-modal-container {
+.speaker-modal-container, .talk-modal-container {
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -219,10 +220,11 @@ a:hover, a:focus, a:active, a:visited {
 .speaker-modal-card {
     max-height: 90vh;
     width: 90vw;
+    max-width: 1000px;
     background: white;
     border-radius: 20px;
     border: 2px solid lightgray;
-    padding: 20px;
+    padding: 40px;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -242,6 +244,10 @@ a:hover, a:focus, a:active, a:visited {
     overflow-y: auto;
 }
 
+.speaker-modal-card h2 {
+    margin-bottom: 30px;
+}
+
 .speaker-modal-card img {
     height: 200px;
     width: 200px;
@@ -257,7 +263,6 @@ a:hover, a:focus, a:active, a:visited {
     border-radius: 20px;
     padding: 20px;
     width: 350px;
-    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,6 +284,11 @@ a:hover, a:focus, a:active, a:visited {
 
 .speaker-card p {
     overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 
 .speaker-card h4 {
@@ -306,6 +316,148 @@ a:hover, a:focus, a:active, a:visited {
 .speaker-img {
     border: 2px solid #efefef;
     border-radius: 50%;
+}
+
+.schedule-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule-container > div {
+    max-width: 1000px;
+}
+
+.conference-schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.tracks-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.tracks-header span {
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.keynote-header {
+    background-color: black;
+}
+
+.soft-header {
+    margin-right: 20px;
+    background-color: var(--secondaryColor50);
+}
+
+.hard-header {
+    margin-left: 20px;
+    background-color: var(--secondaryColor);
+}
+
+.slot-time {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.slot-container {
+    display: flex;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.track-soft {
+    margin-right: 20px;
+}
+
+.track-hard {
+    margin-left: 20px;
+}
+
+.slot-small-label {
+    display: none;
+}
+
+.slot-entry {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    align-items: center;
+    cursor: pointer;
+    background: white;
+}
+
+.slot-entry:hover {
+    box-shadow: 0 3px 6px darkgray;
+}
+
+.slot-entry h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.slot-speaker {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slot-speaker {
+    cursor: pointer;
+}
+
+.slot-speaker span {
+    margin-top: 5px;
+}
+
+.slot-speaker img {
+    height: 100px;
+    width: 100px;
+}
+
+.keynote {
+    margin-bottom: 30px;
+}
+
+.track-soft .slot-speaker, .keynote .slot-speaker {
+    margin-right: 20px;
+}
+
+.track-hard .slot-speaker {
+    margin-left: 20px;
+}
+
+.slot-entry-body {
+    height: 100%;
+    overflow: hidden;
+    margin: 10px 20px;
+}
+
+.slot-entry-body p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.slot-entry-tags span {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 ul.speaker-social li {
@@ -656,7 +808,6 @@ ul.footer-menu li a:hover {
         height: auto;
     }
 
-
     .top-menu-list {
         flex-direction: column;
         background-color: white;
@@ -670,6 +821,35 @@ ul.footer-menu li a:hover {
         padding: 3em 1em 1em 1em;
         text-align: center;
         max-height: 550px;
+    }
+
+    .tracks-header {
+        display: none;
+    }
+
+    .slot-small-label {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: white;
+        border-radius: 10px 10px 0 0;
+        padding: 5px;
+    }
+
+    .soft-header, .hard-header {
+        margin: 0;
+    }
+
+    .slot-container {
+        flex-wrap: wrap;
+    }
+
+    .slot-entry {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .track-soft, .track-hard {
+        margin: 0 0 20px 0;
     }
 
     .footer-credit {
