@@ -228,6 +228,7 @@ a:hover, a:focus, a:active, a:visited {
     display: none;
     flex-direction: column;
     align-items: center;
+    overflow-y: auto;
 }
 
 .speaker-modal-card .back-arrow {
@@ -241,7 +242,6 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .speaker-modal-card p {
-    overflow-y: auto;
 }
 
 .speaker-modal-card h2 {
@@ -391,8 +391,10 @@ a:hover, a:focus, a:active, a:visited {
     border-radius: 10px;
     border: 2px solid lightgray;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
     background: white;
+    text-align: center;
 }
 
 .slot-entry:hover {
@@ -400,7 +402,6 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .slot-entry h5 {
-    text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
 }
@@ -846,6 +847,7 @@ ul.footer-menu li a:hover {
 
     .slot-entry {
         border-radius: 0 0 10px 10px;
+        flex-direction: column;
     }
 
     .track-soft, .track-hard {
