@@ -6,10 +6,10 @@ $(document).ready(function (e) {
     let slotCard = $(".slot-entry");
 
     function getAllSpeakersAndTalks(callback) {
-        $.get('../public/data/speakers.json', function (data) {
+        $.get('/data/speakers.json', function (data) {
             allSpeakers = JSON.parse(data)
 
-            $.get('../public/data/talks.json', function (data) {
+            $.get('/data/talks.json', function (data) {
                 allTalks = JSON.parse(data)
                 callback()
             }, "text")
@@ -112,29 +112,23 @@ $(document).ready(function (e) {
                 tags.append("<span>" + tag + "</span>")
             }
 
-            let speaker = allSpeakers[talkId]
-
             talkContainer.children(".slot-speakers-container").children(".slot-speaker").each(function (index, element) {
                 let speakerId = talk.speakerIds[index]
 
                 if (speakerId) {
-                    let speakerElement = $(element)
-                    speakerElement.css({"display": "flex"})
                     let speaker = allSpeakers[speakerId]
 
                     if (speaker) {
+                        let speakerElement = $(element)
+                        speakerElement.css({"display": "flex"})
                         speakerElement.children("img").attr("src", speaker.imgSrc)
                         speakerElement.children("span").text(speaker.name)
+                        speakerElement.attr("id", "slot-speaker-" + speakerId)
                     }
                 } else {
                     $(element).css({"display": "none"})
                 }
             })
-
-            let slotSpeaker = talkContainer.children(".slot-speaker")
-            slotSpeaker.attr("id", "slot-speaker-" + talkId)
-            slotSpeaker.children("img").attr("src", speaker.imgSrc)
-            slotSpeaker.children("span").text(speaker.name)
 
             talkContainer.css({"display": "flex"})
             $(".talk-modal-container").css({"display": "flex"});
