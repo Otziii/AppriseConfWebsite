@@ -1,0 +1,12 @@
+[
+  {
+    "keynote": true,
+    "imgSrc": "/public/img/speakers/wei-meng-lee.png",
+    "name": "Wei-Meng Lee",
+    "employer": "Developer Learning Solutions",
+    "bio": "Wei-Meng Lee is a technologist and founder of Developer Learning Solutions, a technology company specializing in hands-on training on the latest technologies. He is an established developer and trainer specializing in Data Science, Blockchain, and Mobile technologies.\n\nWei-Meng speaks regularly at international conferences and has authored and co-authored numerous books on topics ranging from blockchain to machine learning. He currently writes a regular column for Towards Data Science and Code Magazine. He is also the author of Beginning Ethereum Smart Contracts Programming and Python Machine Learning.",
+    "twitterTag": "weimenglee",
+    "githubLink": "https://github.com/weimenglee",
+    "website": "http://calendar.learn2develop.net/"
+  }
+]

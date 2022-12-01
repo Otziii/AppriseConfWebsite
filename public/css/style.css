@@ -196,6 +196,10 @@ a:hover, a:focus, a:active, a:visited {
     margin: 0 40px;
 }
 
+#speakers {
+    padding-bottom: 0;
+}
+
 .speaker-cards-container {
     display: flex;
     justify-content: center;
@@ -241,11 +245,17 @@ a:hover, a:focus, a:active, a:visited {
     text-decoration: underline;
 }
 
-.speaker-modal-card p {
-}
-
 .speaker-modal-card h2 {
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.speaker-modal-card p {
+    white-space: pre-wrap;
+}
+
+.speaker-modal-card .slot-speaker {
+
 }
 
 .speaker-modal-card img {
@@ -259,15 +269,16 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .speaker-card {
+    max-width: 320px;
+    min-height: 450px;
     border: 2px solid lightgray;
     border-radius: 20px;
     padding: 20px;
-    width: 350px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
     margin: 20px;
+    display: none;
 }
 
 .speaker-card:hover {
@@ -276,7 +287,7 @@ a:hover, a:focus, a:active, a:visited {
 
 .speaker-keynote {
     background: var(--secondaryColor);
-    padding: 5px;
+    padding: 2px 5px;
     color: white;
     border-radius: 10px;
     margin-top: 10px;
@@ -291,12 +302,18 @@ a:hover, a:focus, a:active, a:visited {
     -webkit-box-orient: vertical;
 }
 
+.speaker-card h2 {
+    margin-top: auto;
+}
+
 .speaker-card h4 {
     margin-top: 0;
+    margin-bottom: auto;
 }
 
 .speaker-cards-container .speaker-social {
     margin-top: auto;
+    padding-top: 20px;
 }
 
 .speaker h3 {
@@ -362,6 +379,14 @@ a:hover, a:focus, a:active, a:visited {
     background-color: var(--secondaryColor);
 }
 
+.slot-entry.soft-entry {
+    margin-right: 20px;
+}
+
+.slot-entry.hard-entry {
+    margin-left: 20px;
+}
+
 .slot-time {
     font-size: 17px;
     margin: 10px 0;
@@ -386,12 +411,18 @@ a:hover, a:focus, a:active, a:visited {
     display: none;
 }
 
+.slot-tbd {
+    width: 100%;
+    text-align: center;
+}
+
 .slot-entry {
+    width: 100%;
     display: flex;
     border-radius: 10px;
     border: 2px solid lightgray;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     cursor: pointer;
     background: white;
     text-align: center;
@@ -406,6 +437,15 @@ a:hover, a:focus, a:active, a:visited {
     font-size: 18px;
 }
 
+.slot-speakers-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-modal-card .slot-speakers-container {
+    flex-direction: row;
+}
+
 .slot-speaker {
     display: flex;
     margin: 20px;
@@ -413,9 +453,6 @@ a:hover, a:focus, a:active, a:visited {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.slot-speaker {
     cursor: pointer;
 }
 
@@ -444,11 +481,18 @@ a:hover, a:focus, a:active, a:visited {
     height: 100%;
     overflow: hidden;
     margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
 }
 
 .slot-entry-body p {
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.slot-entry-tags {
+    margin-top: auto;
 }
 
 .slot-entry-tags span {
@@ -459,6 +503,7 @@ a:hover, a:focus, a:active, a:visited {
     padding: 2px 5px;
     border-radius: 5px;
     text-align: center;
+    margin: 0 5px;
 }
 
 ul.speaker-social li {
@@ -828,6 +873,10 @@ ul.footer-menu li a:hover {
         display: none;
     }
 
+    .slot-speakers-container {
+        flex-direction: row;
+    }
+
     .slot-small-label {
         display: block;
         width: 100%;
@@ -839,6 +888,10 @@ ul.footer-menu li a:hover {
 
     .soft-header, .hard-header {
         margin: 0;
+    }
+
+    .slot-entry.soft-entry, .slot-entry.hard-entry {
+        margin: 0 0 20px 0;
     }
 
     .slot-container {
