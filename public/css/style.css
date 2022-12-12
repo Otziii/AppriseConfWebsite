@@ -890,6 +890,10 @@ ul.footer-menu li a:hover {
         margin: 0;
     }
 
+    .slot-entry {
+        border-top: 0;
+    }
+
     .slot-entry.soft-entry, .slot-entry.hard-entry {
         margin: 0 0 20px 0;
     }
