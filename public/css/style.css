@@ -924,7 +924,6 @@ ul.footer-menu li a:hover {
 
 
 /* iPad Portrait */
-
 @media (min-width: 768px) and (max-width: 991px) {
     .hero-header {
         padding: 3em 1em 1em 1em;
@@ -943,7 +942,6 @@ ul.footer-menu li a:hover {
 
 
 /* iPad Landscape */
-
 @media (max-width: 1064px) {
     .sponsor-card.gold {
         order: 0;
@@ -960,4 +958,22 @@ ul.footer-menu li a:hover {
 
 #mc_embed_signup input {
     color: var(--darkTextColor);
+}
+
+/* 404 */
+.container-pnf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-pnf {
+    width: 700px;
+    margin: 50px;
+}
+
+.link-pnf {
+    margin-top: 40px;
+    font-size: 20px;
 }
