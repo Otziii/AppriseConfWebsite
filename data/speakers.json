@@ -8,5 +8,13 @@
     "twitterTag": "weimenglee",
     "githubLink": "https://github.com/weimenglee",
     "website": "http://calendar.learn2develop.net/"
+  },
+  {
+    "keynote": false,
+    "imgSrc": "/public/img/crew/monica.jpeg",
+    "name": "Monica Beate Tvedt",
+    "employer": "Forte Digital",
+    "bio": "Monica has more than 20 years of national and international experience working as a Tech leader and software engineer building SaaS, Web and Mobile applications for sectors such as; Telecom, Engineering, Retail and Banking.\n\nBesides her love for Tech and building tech companies, she spends as much time as she can working on gender equality initiatives, organizing Mobile Tech Meetups, Guest Lecturing and teaching new tech to the next generation.\n\nMonica is someone who not only has solid experience from the industry, but also has helped shape it. She has long marked herself as a strong influencer, and has been credited as a role model for women in tech and came on the list of Norway’s 50 most influential women in tech in 2021.\n\nMonica is also a co-organizer of Apprise conf!",
+    "githubLink": "https://github.com/StargrrlMoonlight"
   }
 ]
