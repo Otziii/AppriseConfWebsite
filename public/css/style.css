@@ -388,6 +388,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .slot-time {
+    font-weight: bold;
     font-size: 17px;
     margin: 10px 0;
 }

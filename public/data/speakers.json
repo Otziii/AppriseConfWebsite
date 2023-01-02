@@ -11,6 +11,16 @@
   },
   {
     "keynote": false,
+    "imgSrc": "/img/speakers/donnywals.jpeg",
+    "name": "Donny Wals",
+    "employer": "donnywals.com",
+    "twitterTag": "donnywals",
+    "bio": "Donny is a freelance iOS Developer, speaker, and author of a blog and various books on iOS related topics. He's been doing iOS development for about 8 years by now, and have been a developer for about 14 years in total.",
+    "githubLink": "https://github.com/donnywals",
+    "website": "https://donnywals.com/"
+  },
+  {
+    "keynote": false,
     "imgSrc": "/img/crew/monica.jpeg",
     "name": "Monica Beate Tvedt",
     "employer": "Forte Digital",
