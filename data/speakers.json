@@ -29,6 +29,14 @@
   },
   {
     "keynote": false,
+    "imgSrc": "/public/img/speakers/raja.png",
+    "name": "Raja Skogland",
+    "employer": "thevisionaryvc.com",
+    "bio": "Raja is a serial entrepreneur, investor in 70+ startups, business advisor and university lecturer.",
+    "website": "https://www.thevisionaryvc.com"
+  },
+  {
+    "keynote": false,
     "imgSrc": "/public/img/crew/majid.jpeg",
     "name": "Majid Hajian",
     "employer": "Invertase",

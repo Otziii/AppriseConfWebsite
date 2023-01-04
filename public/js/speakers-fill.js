@@ -152,7 +152,11 @@ $(document).ready(function (e) {
             speakerContainer.children("p").text(speaker.bio)
 
             let speakerTwitter = $("#speaker-twitter");
-            setHrefOnElement(speakerTwitter, "https://twitter.com/" + speaker.twitterTag)
+            let twitterUrl = ""
+            if (speaker.twitterTag) {
+                "https://twitter.com/" + speaker.twitterTag
+            }
+            setHrefOnElement(speakerTwitter, twitterUrl)
 
             let speakerGithub = $("#speaker-github");
             setHrefOnElement(speakerGithub, speaker.githubLink)
