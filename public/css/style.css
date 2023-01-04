@@ -540,6 +540,10 @@ ul.speaker-social li a:hover {
     margin-top: 20px;
 }
 
+.nav-tabs li {
+    font-size: 20px;
+}
+
 .schedule .media {
     margin-top: 4em;
 }
