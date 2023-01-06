@@ -40,7 +40,7 @@
     "imgSrc": "/public/img/crew/majid.jpeg",
     "name": "Majid Hajian",
     "employer": "Invertase",
-    "bio": "Majid is a Google developer expert and passionate software developer with years of developing and architecting complex web and mobile applications. He is an award-winning book author at Apress and instructor at PacktPub/Udemy and Pluralsight. His passions are generally Flutter, PWA, and performance.\nHe loves sharing his knowledge with the community by writing and speaking, having workshops and video tutorials, contributing to open source, and organizing meetups and events. He is also the organizer of several big Nordic conferences and meetups, such as FlutterVikings!\n\nMajid is also a co-organizer of Apprise conf!",
+    "bio": "Majid is a Google developer expert and passionate software developer with years of developing and architecting complex web and mobile applications. He is an award-winning book author at Apress and instructor at PacktPub/Udemy and Pluralsight. His passions are generally Flutter, PWA, and performance.\nHe loves sharing his knowledge with the community by writing and speaking, having workshops and video tutorials, contributing to open source, and organizing meetups and events. He is also the organizer of several big Nordic conferences and meetups, such as FlutterVikings!\n\nMajid is a workshop holder for and also a co-organizer of Apprise conf!",
     "twitterTag": "mhadaily",
     "githubLink": "https://github.com/mhadaily",
     "website": "https://majidhajian.com/"
@@ -51,5 +51,12 @@
     "name": "Daniil Pastukhou",
     "employer": "Bouvet Norge",
     "bio": "Daniil is a mobile Tech lead in Bouvet. He has worked on many different parts of Android and is now exploring how far he can push Jetpack Compose.\n\n- \"I remember Android Gingerbread :D\"\n\nDaniil is one of the workshop holders for Apprise Conf."
+  },
+  {
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/oddbjorn.jpeg",
+    "name": "Oddbjørn Almenning",
+    "employer": "FotMob",
+    "bio": "Oddbjørn is the iOS Tech Lead for the FotMob App.\n\nHe is one of the workshop holders for Apprise Conf."
   }
 ]
