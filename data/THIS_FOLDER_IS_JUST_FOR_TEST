@@ -1,0 +1,2 @@
+The files in this folder is just for testing locally, edit the files in public/data to see the results in production
+(NB: be aware of the paths that must be without 'public/')

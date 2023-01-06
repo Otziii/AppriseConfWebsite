@@ -12,6 +12,18 @@
     ]
   },
   {
+    "type": "workshop",
+    "title": "From Zero to Production with Jetpack Compose",
+    "description": "Only some have talked about the superiority of Compose over the classic UI (xml) in Android. I will not only tell, but teach you how much faster, better and stronger app development with Compose is!\n\nThe workshop starts by talking about what Compose is and how it differs from the classic UI (xml) in Android, and it will end with a ready-to-use mobile application.\nBetween the introduction and the last section, we'll walk through the fundamental components of Compose, learn how to use them and what they are for.\n\nAgenda\n* Hello World: Android, Compose\n* Fundamentals part UI: Components, Modifiers, Layouts\n* Fundamentals part fundamental: Fundamentals, States, Effects\n* Theming\n* Animate me! \n* Adoptive layout\n* Testing\n\nPrerequisites:\nThe course is designed for those who already have the basics of programming with Android. \nExperience with Kotlin syntax, including lambdas.\nYou have to have Android Studio installed: (https://developer.android.com/studio).\n\nAfter this workshop you'll have enough experience and knowledge of Compose to create your own release-ready apps from skratch!",
+    "shortDescription": "Only some have talked about the superiority of Compose over the classic UI (xml) in Android. I will not only tell, but teach you how much faster, better and stronger app development with Compose is!",
+    "tags": [
+      "Workshop"
+    ],
+    "speakerIds": [
+      "5"
+    ]
+  },
+  {
     "type": "keynote",
     "title": "The Only Easy Day Was Yesterday, and How to Survive Today and Tomorrow",
     "description": "If you are a developer, you are like a member of the Navy SEALs - you need to arm yourself with a myriad of skills in order to execute your mission successfully. Coupled with the rapid advancement in software and hardware technologies, every day is a learning day.\n\nIn this keynote, veteran author and developer Wei-Meng Lee will share with you his development journey for the past two decades, beginning with his early days as a C developer for Apple System 7, to the current days as a Web3 developer and trainer. Wei-Meng will share his ups and downs for the past 20 years (from the early days of desktop apps development, mobile development, data science, and more recently, blockchain), and how to keep learning in an industry where things get outdated as soon as they are introduced. If you are overwhelmed with new skills to learn, Wei-Meng will share with you some tips on how to learn quickly, and how to keep yourself motivated. If Wei-Meng can do it, so can you!",
