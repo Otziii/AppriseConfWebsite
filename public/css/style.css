@@ -883,6 +883,15 @@ ul.footer-menu li a:hover {
         flex-direction: row;
     }
 
+    .speaker-card {
+        min-height: 250px;
+        min-width: 320px;
+    }
+
+    .speaker-card p {
+        display: none;
+    }
+
     .slot-small-label {
         display: block;
         width: 100%;
