@@ -439,6 +439,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .slot-speakers-container {
+    width: 160px;
     display: flex;
     flex-direction: column;
 }
@@ -721,6 +722,10 @@ ul.speaker-social li a:hover {
 
 .org-container img {
     width: 200px;
+}
+
+.program-committee img {
+    width: 100px !important;
 }
 
 /* ---- Footer ---- */

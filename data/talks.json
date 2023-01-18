@@ -5,7 +5,8 @@
     "description": "Firebase and Flutter are two impressive stacks these days to build world-class applications at scale. These two have fantastic hand-to-hand features that make us as productive and agile as possible. Flutter is a UI toolkit to help you create beautiful applications that can run on six platforms. Firebase, on the other hand, is a fantastic serverless approach towards the backend as a service to help you run your applications at any scale.\n\nYou'll explore what the services are in Firebase. Next, you'll discover how to integrate a Flutter app with Firebase and use Authentication and Analytics services. Then, you'll delve into Firebase extensions. Then, you'll learn how to benefit from Cloud Firestore to manage your database and message to deliver push notifications to your users.\n\nAt the end of the workshop, you'll have the skills and knowledge to create a full-stack app using Flutter and Firebase needed to deliver a scalable and high-quality app to your customer.\n\nEach section comes with practices on a working app built throughout the workshop and is suitable for everyone who wants to learn Dart and Flutter from scratch.\n\nApproach:\nThe instructor will build a pre-designed page from a production application in the workshop.\n\nRequirements:\n- You are familiar with at least one programming language\n- You have done\n- Install on Windows (Please use this link https://flutter.dev/docs/get-started/install)\n- install in Linux / Mac (Please use this link https://flutter.dev/docs/get-started/install)\n- Setup Android Studio and Xcode (Please use this link https://flutter.dev/docs/get-started/install)\n- Setup Emulators (Please use this link https://flutter.dev/docs/get-started/install)\n- Setup IDEAs and Plugins (Please use this link https://flutter.dev/docs/get-started/install)\n\nAgenda:\n\nA quick Introduction to Dart\n- Dart variables and Constants\n- Strings and String Interpolation\n- Dart data types\n- Inheritance in Dart\n- Functional Dart\n- Dart Built-in types\n- Dart List/Array\n- Conditions in Dart\n- Streams and Future\n- Dart Standard Libraries\n- Package dependencies with Pub\n\nMastering Layouts, Widgets, and UI in Flutter\n- Material Design (ANDROID)\n- Cupertino Design (IOS)\n- Stateful and Stateless Widgets\n- Layouts (Column, Row, Grid, Positioned, Stack, StaggeredGridView, ...)\n- Widgets (Scaffold, App bar, Text, ... )\n- Styling in Flutter (Color, Fonts, Themes, Images, Backgrounds, padding, margin, borders, shadows, and SVGs)\n- GestureDetector and Inkwell\n\nNavigation and routing in Flutter & Basic State management and dependencies injection\n- Working with Navigator and GoRouter\n- Riverpod\n\nFirebase and Flutter Integration\n- Setup Firebase\n- Authentication with Firebase\n- Setup Firestore and CRUD operation\n- Firebase Extensions\n\nNetworking Layer\n- Working with Rest API\n- Working with JSON, Serializing, and Deserializing\n\nDeployment\n- building for iOS\n- build for Android\n\nAt the end of this workshop, we have implemented a fully functional real-time app that can be released on both App and Google Play stores.",
     "shortDescription": "Firebase and Flutter are two impressive stacks these days to build world-class applications at scale. These two have fantastic hand-to-hand features that make us as productive and agile as possible. Flutter is a UI toolkit to help you create beautiful applications that can run on six platforms. Firebase, on the other hand, is a fantastic serverless approach towards the backend as a service to help you run your applications at any scale.",
     "tags": [
-      "Flutter"
+      "Flutter",
+      "Firebase"
     ],
     "speakerIds": [
       "4"
@@ -17,7 +18,8 @@
     "description": "Everyone has talked about the superiority of Compose over the classic UI (xml) in Android. I will not tell, but actually teach you how much faster, better and stronger app development with Compose is!\n\nThe workshop starts by talking about what Compose is and how it differs from the classic UI (xml) in Android, and it will end with a ready-to-use mobile application.\nBetween the introduction and the last section, we'll walk through the fundamental components of Compose, learn how to use them and what they are for.\n\nAgenda\n* Hello World: Android, Compose\n* Fundamentals part UI: Components, Modifiers, Layouts\n* Fundamentals part fundamental: Fundamentals, States, Effects\n* Theming\n* Animate me! \n* Adoptive layout\n* Testing\n\nPrerequisites:\nThe course is designed for those who already have the basics of programming with Android. \nExperience with Kotlin syntax, including lambdas.\nYou have to have Android Studio installed: (https://developer.android.com/studio).\n\nAfter this workshop you'll have enough experience and knowledge of Compose to create your own release-ready apps from skratch!",
     "shortDescription": "Everyone has talked about the superiority of Compose over the classic UI (xml) in Android. I will not tell, but actually teach you how much faster, better and stronger app development with Compose is!",
     "tags": [
-      "Android"
+      "Android",
+      "Compose"
     ],
     "speakerIds": [
       "5"
@@ -29,10 +31,25 @@
     "description": "The hype is still buzzing for SwiftUI, Apple's latest framework for building user interfaces for iOS, tvOS, macOS, and watchOS.\nIn this workshop I will guide you through building an application from scratch. The workshop will cover all you need to know to build beautiful apps using SwiftUI!\n\nWe will also look into how widgets are created and managed for iOS applications.\n\nWhat you will learn:\n- How Swift and SwiftUI works\n- How to work with RESTful APIs and how to deal with JSON data\n- Building an interactable app from scratch\n\nAgenda:\n- Basics of Swift and SwiftUI\n- Your first app, Hello SwiftUI!\n- Views and how to build them\n- Structuring your app\n- Working with an API\n- Looking into widgets\n\nRequirements:\n- You are familiar with Swift as a programming language\n- You have the latest public version of Xcode downloaded and running. Download from here: https://developer.apple.com/xcode/",
     "shortDescription": "The hype is still buzzing for SwiftUI, Apple's latest framework for building user interfaces for iOS, tvOS, macOS, and watchOS.\nIn this workshop I will guide you through building an application from scratch. The workshop will cover all you need to know to build beautiful apps using SwiftUI!",
     "tags": [
-      "iOS"
+      "iOS",
+      "SwiftUI"
     ],
     "speakerIds": [
       "6"
+    ]
+  },
+  {
+    "type": "workshop",
+    "title": "Analyzing mobile app usage using Python and Pandas",
+    "description": "Mobile data analytics is the practice of collecting users usage data, and then analysing the data to understand their usage patterns. Using mobile analytics can lead to increased user satisfaction and retention.\n\nIn this workshop, you will learn some of the techniques you can use in your mobile app to gather user usage data, such as:\n* Various permissions granted by the user\n* Notifications (whether they allow notifications)\n* OS version on device\n* Time spent on each screen of your app\n* Time that users launch your app\n\nUsing the data collected, you will learn how to use Python and the Pandas library to perform analytics on these data. You will be able to derive useful information such as:\n* The usage pattern of individual users\n* The most popular pages of your app\n* The navigation pattern of your users\n* Which are the pages where the users usually encounter problems\n\nFor this workshop, you need the following software:\n* Anaconda (Download here: https://anaconda.com/products/distribution)\n\nTopics covered\n---------------\n* Creating the REST API for collecting data\n* Sending usage data from your mobile app (React Native and Flutter code provided) to the server\n* Using Pandas to analyze your data\n* Using matplotlib for visualization\n\nPrerequisites\n-------------\n* Knowledge of Python would be useful but not mandatory\n* Code samples in Flutter and React Native will provided; however, participants are not required to do mobile development during the workshop\n* The main focus for this workshop is data analytics",
+    "shortDescription": "Mobile data analytics is the practice of collecting users usage data, and then analysing the data to understand their usage patterns. Using mobile analytics can lead to increased user satisfaction and retention.",
+    "tags": [
+      "Python",
+      "Pandas",
+      "Analytics"
+    ],
+    "speakerIds": [
+      "0"
     ]
   },
   {
