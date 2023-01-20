@@ -21,6 +21,14 @@
   },
   {
     "keynote": false,
+    "imgSrc": "/public/img/speakers/tiya.jpg",
+    "name": "Tiya Chowdhury",
+    "employer": "Google",
+    "bio": "Tiya is a software engineer at Google Health/Google/Flutter. She has previously worked for DeepMind, Amazon and Accenture. Tiya has built mobile apps both as part of her role at Google health and externally, in addition she is writing blogs and have spoken at various conferences.",
+    "twitterTag": "tiyachows"
+  },
+  {
+    "keynote": false,
     "imgSrc": "/public/img/crew/monica.jpeg",
     "name": "Monica Beate Tvedt",
     "employer": "Forte Digital",
