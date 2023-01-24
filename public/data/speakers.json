@@ -1,25 +1,28 @@
 [
   {
+    "id": "001",
     "keynote": true,
     "imgSrc": "/img/speakers/wei-meng-lee.png",
     "name": "Wei-Meng Lee",
     "employer": "Developer Learning Solutions",
-    "bio": "Wei-Meng is a technologist and founder of Developer Learning Solutions, a technology company specializing in hands-on training on the latest technologies. He is an established developer and trainer specializing in Data Science, Blockchain, and Mobile technologies.\n\nWei-Meng speaks regularly at international conferences and has authored and co-authored numerous books on topics ranging from blockchain to machine learning. He currently writes a regular column for Towards Data Science and Code Magazine. He is also the author of Beginning Ethereum Smart Contracts Programming and Python Machine Learning.",
+    "bio": "Wei-Meng Lee is a technologist and founder of Developer Learning Solutions, a technology company specializing in hands-on training on the latest technologies. He is an established developer and trainer specializing in Data Science, Blockchain, and Mobile technologies.\n\nWei-Meng speaks regularly at international conferences and has authored and co-authored numerous books on topics ranging from blockchain to machine learning. He currently writes a regular column for Towards Data Science and Code Magazine. He is also the author of Beginning Ethereum Smart Contracts Programming and Python Machine Learning.",
     "twitterTag": "weimenglee",
     "githubLink": "https://github.com/weimenglee",
     "website": "http://calendar.learn2develop.net/"
   },
   {
+    "id": "002",
     "keynote": false,
     "imgSrc": "/img/speakers/donnywals.jpeg",
     "name": "Donny Wals",
     "employer": "donnywals.com",
-    "twitterTag": "donnywals",
     "bio": "Donny is a freelance iOS Developer, speaker, and author of a blog and various books on iOS related topics. He's been doing iOS development for about 8 years by now, and have been a developer for about 14 years in total.",
+    "twitterTag": "donnywals",
     "githubLink": "https://github.com/donnywals",
     "website": "https://donnywals.com/"
   },
   {
+    "id": "003",
     "keynote": false,
     "imgSrc": "/img/speakers/tiya.jpg",
     "name": "Tiya Chowdhury",
@@ -28,6 +31,7 @@
     "twitterTag": "tiyachows"
   },
   {
+    "id": "004",
     "keynote": false,
     "imgSrc": "/img/crew/monica.jpeg",
     "name": "Monica Beate Tvedt",
@@ -36,6 +40,7 @@
     "githubLink": "https://github.com/StargrrlMoonlight"
   },
   {
+    "id": "005",
     "keynote": false,
     "imgSrc": "/img/speakers/raja.png",
     "name": "Raja Skogland",
@@ -44,6 +49,7 @@
     "website": "https://www.thevisionaryvc.com"
   },
   {
+    "id": "006",
     "keynote": false,
     "imgSrc": "/img/crew/majid.jpeg",
     "name": "Majid Hajian",
@@ -54,6 +60,7 @@
     "website": "https://majidhajian.com/"
   },
   {
+    "id": "007",
     "keynote": false,
     "imgSrc": "/img/speakers/daniil.jpeg",
     "name": "Daniil Pastukhou",
@@ -61,6 +68,7 @@
     "bio": "Daniil is a mobile Tech lead at Bouvet. He has worked on many different parts of Android and is now exploring how far he can push Jetpack Compose.\n\n- \"I remember Android Gingerbread :D\"\n\nDaniil is one of the workshop holders for Apprise Conf."
   },
   {
+    "id": "008",
     "keynote": false,
     "imgSrc": "/img/speakers/oddbjorn.jpeg",
     "name": "Oddbjørn Almenning",

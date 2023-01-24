@@ -439,7 +439,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .slot-speakers-container {
-    width: 160px;
+    max-width: 160px;
     display: flex;
     flex-direction: column;
 }

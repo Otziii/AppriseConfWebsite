@@ -1,5 +1,6 @@
 [
   {
+    "id": "001",
     "keynote": true,
     "imgSrc": "/public/img/speakers/wei-meng-lee.png",
     "name": "Wei-Meng Lee",
@@ -10,6 +11,7 @@
     "website": "http://calendar.learn2develop.net/"
   },
   {
+    "id": "002",
     "keynote": false,
     "imgSrc": "/public/img/speakers/donnywals.jpeg",
     "name": "Donny Wals",
@@ -20,6 +22,7 @@
     "website": "https://donnywals.com/"
   },
   {
+    "id": "003",
     "keynote": false,
     "imgSrc": "/public/img/speakers/tiya.jpg",
     "name": "Tiya Chowdhury",
@@ -28,6 +31,7 @@
     "twitterTag": "tiyachows"
   },
   {
+    "id": "004",
     "keynote": false,
     "imgSrc": "/public/img/crew/monica.jpeg",
     "name": "Monica Beate Tvedt",
@@ -36,6 +40,7 @@
     "githubLink": "https://github.com/StargrrlMoonlight"
   },
   {
+    "id": "005",
     "keynote": false,
     "imgSrc": "/public/img/speakers/raja.png",
     "name": "Raja Skogland",
@@ -44,6 +49,7 @@
     "website": "https://www.thevisionaryvc.com"
   },
   {
+    "id": "006",
     "keynote": false,
     "imgSrc": "/public/img/crew/majid.jpeg",
     "name": "Majid Hajian",
@@ -54,6 +60,7 @@
     "website": "https://majidhajian.com/"
   },
   {
+    "id": "007",
     "keynote": false,
     "imgSrc": "/public/img/speakers/daniil.jpeg",
     "name": "Daniil Pastukhou",
@@ -61,6 +68,7 @@
     "bio": "Daniil is a mobile Tech lead at Bouvet. He has worked on many different parts of Android and is now exploring how far he can push Jetpack Compose.\n\n- \"I remember Android Gingerbread :D\"\n\nDaniil is one of the workshop holders for Apprise Conf."
   },
   {
+    "id": "008",
     "keynote": false,
     "imgSrc": "/public/img/speakers/oddbjorn.jpeg",
     "name": "Oddbjørn Almenning",

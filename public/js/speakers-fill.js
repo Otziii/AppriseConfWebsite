@@ -32,7 +32,7 @@ $(document).ready(function (e) {
 
         if (speakerId) {
             speakerId = speakerId.replace("speaker-", "")
-            let speaker = allSpeakers[speakerId]
+            let speaker = getSpeaker(speakerId)
 
             if (speaker) {
                 card.children("img").attr("src", speaker.imgSrc)
@@ -53,14 +53,14 @@ $(document).ready(function (e) {
         if (talkId) {
             talkId = talkId.replace("talk-", "")
 
-            let talk = allTalks[talkId]
+            let talk = getTalk(talkId)
             if (talk) {
                 card.children(".slot-speakers-container").children(".slot-speaker").each(function (index, element) {
                     let speakerId = element.id
                     speakerId = speakerId.replace("talk-speaker-", "")
 
                     let speakerElement = $(element)
-                    let speaker = allSpeakers[speakerId]
+                    let speaker = getSpeaker(speakerId)
 
                     if (speaker) {
                         speakerElement.children("img").attr("src", speaker.imgSrc)
@@ -98,7 +98,7 @@ $(document).ready(function (e) {
     }
 
     function openSlotDetails(talkId) {
-        let talk = allTalks[talkId]
+        let talk = getTalk(talkId)
 
         if (talk) {
             let talkContainer = $(".talk-modal-wrapper")
@@ -116,7 +116,7 @@ $(document).ready(function (e) {
                 let speakerId = talk.speakerIds[index]
 
                 if (speakerId) {
-                    let speaker = allSpeakers[speakerId]
+                    let speaker = getSpeaker(speakerId)
 
                     if (speaker) {
                         let speakerElement = $(element)
@@ -136,7 +136,8 @@ $(document).ready(function (e) {
     }
 
     function openSpeakerDetails(speakerId) {
-        let speaker = allSpeakers[speakerId]
+        let speaker = getSpeaker(speakerId)
+
         if (speaker) {
             let speakerContainer = $(".speaker-modal-card")
             speakerContainer.children("img").attr("src", speaker.imgSrc)
@@ -202,4 +203,12 @@ $(document).ready(function (e) {
             openSpeakerDetails(speakerId)
         }
     })
+
+    function getSpeaker(id) {
+        return allSpeakers.find(element => element.id === id)
+    }
+
+    function getTalk(id) {
+        return allTalks.find(element => element.id === id)
+    }
 });
