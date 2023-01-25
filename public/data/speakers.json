@@ -2,7 +2,7 @@
   {
     "id": "001",
     "keynote": true,
-    "imgSrc": "/img/speakers/wei-meng-lee.png",
+    "imgSrc": "/img/speakers/wei-meng-lee.jpg",
     "name": "Wei-Meng Lee",
     "employer": "Developer Learning Solutions",
     "bio": "Wei-Meng Lee is a technologist and founder of Developer Learning Solutions, a technology company specializing in hands-on training on the latest technologies. He is an established developer and trainer specializing in Data Science, Blockchain, and Mobile technologies.\n\nWei-Meng speaks regularly at international conferences and has authored and co-authored numerous books on topics ranging from blockchain to machine learning. He currently writes a regular column for Towards Data Science and Code Magazine. He is also the author of Beginning Ethereum Smart Contracts Programming and Python Machine Learning.",
@@ -42,7 +42,7 @@
   {
     "id": "005",
     "keynote": false,
-    "imgSrc": "/img/speakers/raja.png",
+    "imgSrc": "/img/speakers/raja.jpg",
     "name": "Raja Skogland",
     "employer": "thevisionaryvc.com",
     "bio": "Raja is a serial entrepreneur, investor in 70+ startups, business advisor and university lecturer.",
