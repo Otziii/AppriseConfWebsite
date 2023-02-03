@@ -68,5 +68,46 @@
     "speakerIds": [
       "001"
     ]
+  },
+  {
+    "id": "106",
+    "type": "Talk",
+    "title": "Fast track your idea with Flutter",
+    "description": "Have you wanted to build a mobile app and not know where to start? Or perhaps you’ve heard about Flutter but you aren’t sure what it is. In either case this talk is for you.\n\nThis talk will highlight key features of flutter with a build-along-with me style talk to show how you can go from zero to a functioning app.\n\nIn this session you’ll learn how to turn an idea into a beautiful cross platform application using Flutter.",
+    "shortDescription": "Have you wanted to build a mobile app and not know where to start? Or perhaps you’ve heard about Flutter but you aren’t sure what it is. In either case this talk is for you.",
+    "tags": [
+      "Flutter"
+    ],
+    "speakerIds": [
+      "003"
+    ]
+  },
+  {
+    "id": "107",
+    "type": "Talk",
+    "title": "How to accelerate your fundraising?",
+    "description": "Interested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money? Here is what to do!\n\nIn this interview style talk, Monica and Raja will discuss what entrepreneurs and startup-ers need to have in place before looking for investors.",
+    "shortDescription": "Interested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money? Here is what to do!",
+    "tags": [
+      "Startup",
+      "Inspirational"
+    ],
+    "speakerIds": [
+      "004",
+      "005"
+    ]
+  },
+  {
+    "id": "108",
+    "type": "Talk",
+    "title": "Warning!! New technology ahead!",
+    "description": "When Apple announces new tech, we’re eager to jump on ASAP until we realize that we’ll need to wait some years… When the time comes to use the latest and greatest the question becomes “How do we safely integrate this in our code”.\n\nIn the past few years, we've seen some big changes on iOS (namely SwiftUI and async / await) and developers are eager to make use of these technologies. However, you can't rush in and start migrating over without a plan. \n\nThis talk will provide some do's and don'ts for a big migration, as well as some insights into how other companies approach this. I'll also talk a little bit about how management and development can be misaligned on the need for new tech, and how developers can make a strong case for management to allow adopting new tech.\n\nWe end the talk with a broad code-level exploration of where to start implementing new technology, and how we can do this in a way that doesn't require us to refactor an entire codebase all at once.",
+    "shortDescription": "When Apple announces new tech, we’re eager to jump on ASAP until we realize that we’ll need to wait some years… When the time comes to use the latest and greatest the question becomes “How do we safely integrate this in our code”?",
+    "tags": [
+      "iOS"
+    ],
+    "speakerIds": [
+      "002"
+    ]
   }
 ]

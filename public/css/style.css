@@ -436,6 +436,7 @@ a:hover, a:focus, a:active, a:visited {
 .slot-entry h5 {
     font-weight: 600;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 .slot-speakers-container {
@@ -446,6 +447,8 @@ a:hover, a:focus, a:active, a:visited {
 
 .speaker-modal-card .slot-speakers-container {
     flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .slot-speaker {
@@ -492,6 +495,8 @@ a:hover, a:focus, a:active, a:visited {
 .slot-entry-body p {
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .slot-entry-tags {
@@ -662,6 +667,7 @@ ul.speaker-social li a:hover {
 
 .sponsor-tier-container a {
     border-radius: 10px;
+    box-shadow: 0 1px 3px lightgray;
 }
 
 .sponsor-tier-container a:hover {
