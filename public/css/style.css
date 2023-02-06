@@ -630,6 +630,10 @@ ul.speaker-social li a:hover {
     max-height: 180px;
 }
 
+.sponsor-card h2 {
+    margin-top: 0;
+}
+
 .sold-out-container {
     position: absolute;
     width: 100%;
