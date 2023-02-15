@@ -65,7 +65,7 @@
     "imgSrc": "/img/speakers/daniil.jpeg",
     "name": "Daniil Pastukhou",
     "employer": "Bouvet Norge",
-    "bio": "Daniil is a mobile Tech lead at Bouvet. He has worked on many different parts of Android and is now exploring how far he can push Jetpack Compose.\n\n- \"I remember Android Gingerbread :D\"\n\nDaniil is one of the workshop holders for Apprise Conf."
+    "bio": "Daniil is a mobile Tech lead at Bouvet. He has worked on many different parts of Android and is now exploring how far he can push Jetpack Compose.\n\n- \"I remember Android Gingerbread :D\"\n\nDaniil is also one of the workshop holders for Apprise Conf."
   },
   {
     "id": "008",
@@ -74,5 +74,29 @@
     "name": "Oddbjørn Almenning",
     "employer": "FotMob",
     "bio": "Oddbjørn is the iOS Tech Lead for the FotMob App.\n\nHe is one of the workshop holders for Apprise Conf."
+  },
+  {
+    "id": "009",
+    "keynote": false,
+    "imgSrc": "/img/speakers/danny.JPG",
+    "name": "Danny Preussler",
+    "employer": "SoundCloud",
+    "bio": "Danny is a developer by heart, living in Berlin, and leading the Android team at SoundCloud. He worked for companies like Groupon, Viacom, eBay, and Alcatel and started his mobile career long before any Android with Java ME and Blackberry applications.\n\nDanny writes and talks about mobile development and testing regularly and is a Google Developer Expert for Android and Kotlin."
+  },
+  {
+    "id": "010",
+    "keynote": false,
+    "imgSrc": "/img/speakers/Miklos.png",
+    "name": "Miklos Philips",
+    "employer": "Self",
+    "bio": "Miklos is a Lead UX Designer/Product Designer with 17+ years of experience. Most recently at the Financial Times in London, he'd spent most of his career in New York, San Francisco, and LA working across various industries."
+  },
+  {
+    "id": "011",
+    "keynote": false,
+    "imgSrc": "/img/speakers/joakim.jpeg",
+    "name": "Joakim Stien",
+    "employer": "Forse Mobil",
+    "bio": "Joakim is a developer with a passion for making things spin. He has been making apps on a hobby & freelance basis since ~2011 and professionally since 2019."
   }
 ]
