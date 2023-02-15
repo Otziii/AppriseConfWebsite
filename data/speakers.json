@@ -115,5 +115,37 @@
     "bio": "Frode has been a professional and passionate app developer for 10 years and fullstack developer before that. He's currently working with a point of sales system in public transport, and also have experience from publishing, banking and game development.\n\nWhat truly fascinates him about being a software engineer is how vastly different the domains we work against are. He's got deep respect for the domain experts we meet and the knowledge they possess. Working hard in cooperation creates valuable computer systems.",
     "twitterTag": "nilzor",
     "githubLink": "https://github.com/Nilzor"
+  },
+  {
+    "id": "013",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/emin.jpeg",
+    "name": "Emin Grbo",
+    "employer": "TIDAL",
+    "bio": "Emin is an iOS dev with 3 years of experience working for TIDAL in Oslo. Before that he was a UX designer (mostly freelance and DDB work).\n\nHe's very passionate about building products and helping people reach their goals.",
+    "twitterTag": "emin_ui",
+    "githubLink": "https://github.com/emin-grbo",
+    "website": "https://undeadpixel.dev"
+  },
+  {
+    "id": "014",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/johns.jpeg",
+    "name": "John Solsma",
+    "employer": "Big Nerd Ranch",
+    "bio": "John is a Senior Engineering Manager and iOS Solution Architect with 10 years experience writing mobile apps. He's developed iOS apps for clients such as Apple and AT&T and developed one of the worlds first direct-to-device esim-installation apps.",
+    "githubLink": "https://github.com/SolsmaHawk",
+    "website": "https://solsmadev.com"
+  },
+  {
+    "id": "014",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/ivan.jpeg",
+    "name": "Ivan Le Hjelmeland",
+    "employer": "Shortcut",
+    "bio": "Ivan is Shortcut's primary App Evangelist and runs the Shortcut Bergen Office. He has dedicated his life to apps - releasing over 20 apps through Shortcut, and 40 privately. He has 11 years of experience developing apps",
+    "twitterTag": "ivanhjel",
+    "githubLink": "https://github.com/ivanhjel",
+    "website": "https://shortcut.io/"
   }
 ]
