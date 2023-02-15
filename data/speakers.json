@@ -89,7 +89,7 @@
   {
     "id": "010",
     "keynote": false,
-    "imgSrc": "/public/img/speakers/Miklos.png",
+    "imgSrc": "/public/img/speakers/Miklos.jpg",
     "name": "Miklos Philips",
     "employer": "Self",
     "bio": "Miklos is a Lead UX Designer/Product Designer with 17+ years of experience. Most recently at the Financial Times in London, he'd spent most of his career in New York, San Francisco, and LA working across various industries.",
@@ -138,13 +138,24 @@
     "website": "https://solsmadev.com"
   },
   {
-    "id": "014",
+    "id": "015",
     "keynote": false,
-    "imgSrc": "/public/img/speakers/ivan.jpeg",
+    "imgSrc": "/public/img/speakers/ivan.jpg",
     "name": "Ivan Le Hjelmeland",
     "employer": "Shortcut",
-    "bio": "Ivan is Shortcut's primary App Evangelist and runs the Shortcut Bergen Office. He has dedicated his life to apps - releasing over 20 apps through Shortcut, and 40 privately. He has 11 years of experience developing apps",
+    "bio": "Ivan is Shortcut's primary App Evangelist and runs the Shortcut Bergen Office. He has dedicated his life to apps - releasing over 20 apps through Shortcut, and 40 privately. He has 11 years of experience developing apps.",
     "twitterTag": "ivanhjel",
+    "githubLink": "https://github.com/ivanhjel",
+    "website": "https://shortcut.io/"
+  },
+  {
+    "id": "016",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/yngve.jpeg",
+    "name": "Yngve Hellman",
+    "employer": "Shortcut",
+    "bio": "Yngve is the head of business development and advisory at Shortcut, the largest App developer company in the Nordics. He has 23 years of experience designing digital solutions.",
+    "twitterTag": "yngveh",
     "githubLink": "https://github.com/ivanhjel",
     "website": "https://shortcut.io/"
   }
