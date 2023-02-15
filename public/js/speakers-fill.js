@@ -155,7 +155,7 @@ $(document).ready(function (e) {
             let speakerTwitter = $("#speaker-twitter");
             let twitterUrl = ""
             if (speaker.twitterTag) {
-                "https://twitter.com/" + speaker.twitterTag
+                twitterUrl = "https://twitter.com/" + speaker.twitterTag
             }
             setHrefOnElement(speakerTwitter, twitterUrl)
 

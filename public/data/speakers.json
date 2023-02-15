@@ -81,7 +81,10 @@
     "imgSrc": "/img/speakers/danny.JPG",
     "name": "Danny Preussler",
     "employer": "SoundCloud",
-    "bio": "Danny is a developer by heart, living in Berlin, and leading the Android team at SoundCloud. He worked for companies like Groupon, Viacom, eBay, and Alcatel and started his mobile career long before any Android with Java ME and Blackberry applications.\n\nDanny writes and talks about mobile development and testing regularly and is a Google Developer Expert for Android and Kotlin."
+    "bio": "Danny is a developer by heart, living in Berlin, and leading the Android team at SoundCloud. He worked for companies like Groupon, Viacom, eBay, and Alcatel and started his mobile career long before any Android with Java ME and Blackberry applications.\n\nDanny writes and talks about mobile development and testing regularly and is a Google Developer Expert for Android and Kotlin.",
+    "twitterTag": "PreusslerBerlin",
+    "githubLink": "https://github.com/dpreussler",
+    "website": "https://dpreussler.medium.com/"
   },
   {
     "id": "010",
@@ -89,7 +92,9 @@
     "imgSrc": "/img/speakers/Miklos.png",
     "name": "Miklos Philips",
     "employer": "Self",
-    "bio": "Miklos is a Lead UX Designer/Product Designer with 17+ years of experience. Most recently at the Financial Times in London, he'd spent most of his career in New York, San Francisco, and LA working across various industries."
+    "bio": "Miklos is a Lead UX Designer/Product Designer with 17+ years of experience. Most recently at the Financial Times in London, he'd spent most of his career in New York, San Francisco, and LA working across various industries.",
+    "twitterTag": "MiklosPhilips",
+    "website": "http://miklosphilips.com/"
   },
   {
     "id": "011",
@@ -97,6 +102,18 @@
     "imgSrc": "/img/speakers/joakim.jpeg",
     "name": "Joakim Stien",
     "employer": "Forse Mobil",
-    "bio": "Joakim is a developer with a passion for making things spin. He has been making apps on a hobby & freelance basis since ~2011 and professionally since 2019."
+    "bio": "Joakim is a developer with a passion for making things spin. He has been making apps on a hobby & freelance basis since ~2011 and professionally since 2019.",
+    "twitterTag": "superpimms",
+    "githubLink": "https://github.com/pimms"
+  },
+  {
+    "id": "012",
+    "keynote": false,
+    "imgSrc": "/img/speakers/frode.jpeg",
+    "name": "Frode Nilsen",
+    "employer": "Forse Mobil",
+    "bio": "Frode has been a professional and passionate app developer for 10 years and fullstack developer before that. He's currently working with a point of sales system in public transport, and also have experience from publishing, banking and game development.\n\nWhat truly fascinates him about being a software engineer is how vastly different the domains we work against are. He's got deep respect for the domain experts we meet and the knowledge they possess. Working hard in cooperation creates valuable computer systems.",
+    "twitterTag": "nilzor",
+    "githubLink": "https://github.com/Nilzor"
   }
 ]
