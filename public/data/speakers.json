@@ -89,7 +89,7 @@
   {
     "id": "010",
     "keynote": false,
-    "imgSrc": "/img/speakers/Miklos.png",
+    "imgSrc": "/img/speakers/Miklos.jpg",
     "name": "Miklos Philips",
     "employer": "Self",
     "bio": "Miklos is a Lead UX Designer/Product Designer with 17+ years of experience. Most recently at the Financial Times in London, he'd spent most of his career in New York, San Francisco, and LA working across various industries.",
@@ -158,5 +158,26 @@
     "twitterTag": "yngveh",
     "githubLink": "https://github.com/ivanhjel",
     "website": "https://shortcut.io/"
+  },
+  {
+    "id": "017",
+    "keynote": false,
+    "imgSrc": "/img/speakers/ben.jpeg",
+    "name": "Ben Buttigieg",
+    "employer": "Microsoft",
+    "bio": "Ben is a Senior Software Engineer for the .NET Client Customer Engagement Team. He provides guidance and support to enterprise customers developing mobile apps using Microsoft technologies such as .NET MAUI. He has over 20 years developer experience having worked at various companies including Motorola, Nokia and MixRadio before joining Xamarin just prior to the Microsoft acquisition in 2016.\n\nHe has a passion for coffee, gadgets, and technology and he spends a lot of his spare time enjoying video games, developing home automation solutions and attempting to make the perfect flat white.",
+    "twitterTag": "BenBtg",
+    "githubLink": "https://github.com/BenBtg"
+  },
+  {
+    "id": "018",
+    "keynote": false,
+    "imgSrc": "/img/speakers/michael.jpg",
+    "name": "Michael Hitzker",
+    "employer": "tractive",
+    "bio": "Michael is a Flutter & Firebase enthusiast and have already developed many projects using it. He discovered Flutter roughly 2 years ago and was instantly hooked. Moreover he's been working with Firebase for close to 4 years. When he's not working on Flutter projects, he's an iOS Developer @ tractive.",
+    "twitterTag": "michaelhitzker",
+    "githubLink": "https://github.com/michaelhitzker",
+    "website": "https://www.michaelhitzker.com/"
   }
 ]
