@@ -101,7 +101,7 @@
     "keynote": false,
     "imgSrc": "/public/img/speakers/joakim.jpeg",
     "name": "Joakim Stien",
-    "employer": "Forse Mobil",
+    "employer": "Forse",
     "bio": "Joakim is a developer with a passion for making things spin. He has been making apps on a hobby & freelance basis since ~2011 and professionally since 2019.",
     "twitterTag": "superpimms",
     "githubLink": "https://github.com/pimms"
@@ -111,7 +111,7 @@
     "keynote": false,
     "imgSrc": "/public/img/speakers/frode.jpeg",
     "name": "Frode Nilsen",
-    "employer": "Forse Mobil",
+    "employer": "Forse",
     "bio": "Frode has been a professional and passionate app developer for 10 years and fullstack developer before that. He's currently working with a point of sales system in public transport, and also have experience from publishing, banking and game development.\n\nWhat truly fascinates him about being a software engineer is how vastly different the domains we work against are. He's got deep respect for the domain experts we meet and the knowledge they possess. Working hard in cooperation creates valuable computer systems.",
     "twitterTag": "nilzor",
     "githubLink": "https://github.com/Nilzor"
@@ -179,5 +179,27 @@
     "twitterTag": "michaelhitzker",
     "githubLink": "https://github.com/michaelhitzker",
     "website": "https://www.michaelhitzker.com/"
+  },
+  {
+    "id": "019",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/peter.jpeg",
+    "name": "Peter Friese",
+    "employer": "Firebase / Google",
+    "bio": "Peter is a Developer Relations Engineer on the Firebase team at Google, and is dedicated to helping developers build amazing experiences and high-quality apps using Firebase on iOS, Android, and the web.  He is also the author of Asynchronous Programming with SwiftUI and Combine. Peter has written code in BASIC, C, ObjectPascal, Java, Kotlin, Xtext, JavaScript, TypeScript, Objective-C, and a number of home-grown DSLs - but his all-time favourite is Swift.",
+    "twitterTag": "peterfriese",
+    "githubLink": "https://github.com/peterfriese",
+    "website": "https://peterfriese.dev"
+  },
+  {
+    "id": "020",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/salih.jpeg",
+    "name": "Muhammed Salih Güler",
+    "employer": "AWS",
+    "bio": "Salih is a Berlin based Senior Developer Advocate at AWS Amplify. He is a Google Developer Expert for Flutter and Dart. He likes sharing his knowledge with the people by mentoring aspiring developers, blogging and talking at conferences.",
+    "twitterTag": "salihgueler",
+    "githubLink": "https://github.com/salihgueler",
+    "website": "https://salih.dev"
   }
 ]

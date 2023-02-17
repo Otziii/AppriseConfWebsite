@@ -76,7 +76,8 @@
     "description": "Have you wanted to build a mobile app and not know where to start? Or perhaps you’ve heard about Flutter but you aren’t sure what it is. In either case this talk is for you.\n\nThis talk will highlight key features of flutter with a build-along-with me style talk to show how you can go from zero to a functioning app.\n\nIn this session you’ll learn how to turn an idea into a beautiful cross platform application using Flutter.",
     "shortDescription": "Have you wanted to build a mobile app and not know where to start? Or perhaps you’ve heard about Flutter but you aren’t sure what it is. In either case this talk is for you.",
     "tags": [
-      "Flutter"
+      "Flutter",
+      "101"
     ],
     "speakerIds": [
       "003"
@@ -104,10 +105,124 @@
     "description": "When Apple announces new tech, we’re eager to jump on ASAP until we realize that we’ll need to wait some years… When the time comes to use the latest and greatest the question becomes “How do we safely integrate this in our code”.\n\nIn the past few years, we've seen some big changes on iOS (namely SwiftUI and async / await) and developers are eager to make use of these technologies. However, you can't rush in and start migrating over without a plan. \n\nThis talk will provide some do's and don'ts for a big migration, as well as some insights into how other companies approach this. I'll also talk a little bit about how management and development can be misaligned on the need for new tech, and how developers can make a strong case for management to allow adopting new tech.\n\nWe end the talk with a broad code-level exploration of where to start implementing new technology, and how we can do this in a way that doesn't require us to refactor an entire codebase all at once.",
     "shortDescription": "When Apple announces new tech, we’re eager to jump on ASAP until we realize that we’ll need to wait some years… When the time comes to use the latest and greatest the question becomes “How do we safely integrate this in our code”?",
     "tags": [
-      "iOS"
+      "iOS",
+      "Learnings"
     ],
     "speakerIds": [
       "002"
+    ]
+  },
+  {
+    "id": "109",
+    "type": "Talk",
+    "title": "How to NOT make an app - Let's develop an app with awful UX",
+    "description": "The aim of every developer is to build an app with an amazing and intuitive User Experience. But what if we turn that around and try to make an app with the worst UX possible?\n\nIn this fun little talk we're gonna turn a Flutter app with a great UX into an app with an awful one. In the process we will learn and experience why and how good UX is actually good.",
+    "shortDescription": "The aim of every developer is to build an app with an amazing and intuitive User Experience. But what if we turn that around and try to make an app with the worst UX possible?",
+    "tags": [
+      "Flutter",
+      "UX"
+    ],
+    "speakerIds": [
+      "018"
+    ]
+  },
+  {
+    "id": "110",
+    "type": "Talk",
+    "title": "We ain’t got no time - Building an app fast without giving up on quality",
+    "description": "This is the story of the SoundCloud Wear OS app. Confronted with limited developer resources and a fixed deadline we challenged what many developers see in their daily lives. Though we did not intend to give up on quality to achieve this goal.\n\nSmall feedback cycles and bleeding edge (pre-alpa) APIs were things we used to cut corners.\nAlthough this talk is about WearOS the learnings are not limited to it, but are transferable to any app development.\n\nThis is our story, what went well and what went wrong and how you can take these learnings into your own project.",
+    "shortDescription": "This is the story of the SoundCloud Wear OS app. Confronted with limited developer resources and a fixed deadline we challenged what many developers see in their daily lives.",
+    "tags": [
+      "Android",
+      "Learnings"
+    ],
+    "speakerIds": [
+      "009"
+    ]
+  },
+  {
+    "id": "111",
+    "type": "Talk",
+    "title": "Boost UX with Mobile UX Design Principles and Best Practices",
+    "description": "How can app developers boost the UX of their mobile apps, lower the barriers to adoption, reduce abandonment rates, and increase conversions? By following mobile UX design best practices, standards, and accepted golden rules of UX!\n\nPeople want convenience, speed, and efficiency when using their mobile. However, many apps frustrate people with bad UX by not following established mobile UX design standards and best practices. \n\nFor example, eCommerce sites and apps lose billions every year because they don’t follow simple UX best practices. It’s common knowledge that 75% of people download an app, open it once, and never use it again.\n\nWe can unlock a solution: great mobile UX relies on standards, conventions, and “golden rules.” In this entertaining presentation, participants will acquire knowledge of specific mobile UX design best practices, interaction design principles, usability guidelines, and the “laws of UX”. We’ll look at good and bad examples as we cover detailed methods to boost mobile UX.",
+    "shortDescription": "How can app developers boost the UX of their mobile apps, lower the barriers to adoption, reduce abandonment rates, and increase conversions?",
+    "tags": [
+      "UX",
+      "Design"
+    ],
+    "speakerIds": [
+      "010"
+    ]
+  },
+  {
+    "id": "112",
+    "type": "Talk",
+    "title": "The state of apps in Norway 2023",
+    "description": "As the largest app developer company in the Nordics, we have unique insights into the Norwegian app market. In this talk we present trends and data from our in-house analytics tools and clients.\n\nIvan Le Hjelmeland and Yngve Hellman have over 34 years of combined experience developing digital solutions. They are partners at Shortcut and have worked there since 2016. This talk is a soft inspirational talk about how apps are doing in the Norwegian market today.\n\nAt Shortcut we have developed several internal analytics tools and work with many large clients across the nordics. In this talk we use the insights from these sources and others to outline the state of the Norwegian app market, both from a business perspective and a technical perspective.",
+    "shortDescription": "As the largest app developer company in the Nordics, we have unique insights into the Norwegian app market. In this talk we present trends and data from our in-house analytics tools and clients.",
+    "tags": [
+      "Inspirational",
+      "Trends"
+    ],
+    "speakerIds": [
+      "015",
+      "016"
+    ]
+  },
+  {
+    "id": "113",
+    "type": "Talk",
+    "title": "Building Reusable SwiftUI Components",
+    "description": "SwiftUI makes it easy to create beautiful UI in no time, but it is just as easy to end up with a giant view that mixes view code and business logic.\n\nIn this talk you'll learn how to use Xcode to create reusable SwiftUI components for your own projects or for distributing to other developers.\n\nIn this talk, I am going to show you how to\n\n* refactor an existing SwiftUI view to make it more maintainable,\n* turn it into a reusable SwiftUI component,\n* add event handling,\n* make the view configurable,\n* add it to the Xcode component library,\n* turn it into a shareable component that can be consumed via Swift Package Manager, and distribute it via GitHub and the Swift Package Index",
+    "shortDescription": "SwiftUI makes it easy to create beautiful UI in no time, but it is just as easy to end up with a giant view that mixes view code and business logic.",
+    "tags": [
+      "iOS"
+    ],
+    "speakerIds": [
+      "019"
+    ]
+  },
+  {
+    "id": "114",
+    "type": "Talk",
+    "title": "Mobile, Desktop, Web, & Beyond with C#, .NET MAUI, & Blazor",
+    "description": ".NET MAUI enables developers to build native cross-platform mobile and desktop apps with .NET and C#. Blazor gives developers the ability to build world class interactive web apps all from C# without ever needing to write a line of JavaScript. Combine these two together and you can build apps for nearly every platform from web, iOS, Android, Mac, Windows, and beyond! Join Ben as he breaks down every part of .NET MAUI & Blazor that you need to know about and how you can leverage your existing C# and .NET skills, libraries, and tools to build awesome apps.\n\nThis talk will be a combination of slides and live coding where I will create a Blazor Hybrid app from scratch and talk through the various elements of the app demoing a number of key features such as CSS support and HotReload. ",
+    "shortDescription": ".NET MAUI enables developers to build native cross-platform mobile and desktop apps with .NET and C#. Blazor gives developers the ability to build world class interactive web apps all from C# without ever needing to write a line of JavaScript.",
+    "tags": [
+      "X-platform",
+      "101"
+    ],
+    "speakerIds": [
+      "017"
+    ]
+  },
+  {
+    "id": "115",
+    "type": "Talk",
+    "title": "Lightning talks ⚡️",
+    "description": "- ChatGPT and your Mobile App Development Workflow -\nChatGPT has taken the world by storm and not just in software development circles. I've seen seasoned software engineers scoff at integrating ChatGPT into their software development workflow, but I ask: why? What are the benefits, the downsides, the risks?\n\n- Working NO-to-5 -\nWorking 9-5 is an overrated thing of the past. We are living in an increasingly fast-paced society and yet choose to lose 2-3 hours per day on travel? This does not compute.\n\n- Kotlin DSL. This language is broken, bring a new one! -\nA domain-specific language (DSL) is a computer language specialized to a particular application domain. This is in contrast to a general-purpose language (GPL), which is broadly applicable across domains. Kotlin allows you to write your own language as quickly as possible.",
+    "shortDescription": "Listen to great stories from different speakers in a rapid format!",
+    "tags": [
+      "Lightning",
+      "Inspirational"
+    ],
+    "speakerIds": [
+      "014",
+      "013",
+      "007"
+    ]
+  },
+  {
+    "id": "116",
+    "type": "Talk",
+    "title": "Building a real-time quiz application with Jetpack Compose and AWS Amplify",
+    "description": "With the Declarative UI taking over the world. Jetpack Compose also became \"the\" way that Android applications will be developed in the future. A lot of applications already embraced it and everybody enjoys it. But what if you want to see Jetpack Compose in action with a full serverless real-time/real life backend? Thankfully AWS Amplify comes to the rescue. AWS Amplify is a set of libraries that is provided to developers to create applications.\n\nIn this talk you will learn about how you can create and architect a real-time quiz application by using AWS Amplify and Jetpack Compose. You will learn the capabilities of AWS Amplify and how you can combine the power of it with Jetpack Compose.",
+    "shortDescription": "With the Declarative UI taking over the world. Jetpack Compose also became \"the\" way that Android applications will be developed in the future.",
+    "tags": [
+      "Android"
+    ],
+    "speakerIds": [
+      "020"
     ]
   }
 ]

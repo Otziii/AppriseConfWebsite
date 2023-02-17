@@ -101,7 +101,7 @@
     "keynote": false,
     "imgSrc": "/img/speakers/joakim.jpeg",
     "name": "Joakim Stien",
-    "employer": "Forse Mobil",
+    "employer": "Forse",
     "bio": "Joakim is a developer with a passion for making things spin. He has been making apps on a hobby & freelance basis since ~2011 and professionally since 2019.",
     "twitterTag": "superpimms",
     "githubLink": "https://github.com/pimms"
@@ -111,7 +111,7 @@
     "keynote": false,
     "imgSrc": "/img/speakers/frode.jpeg",
     "name": "Frode Nilsen",
-    "employer": "Forse Mobil",
+    "employer": "Forse",
     "bio": "Frode has been a professional and passionate app developer for 10 years and fullstack developer before that. He's currently working with a point of sales system in public transport, and also have experience from publishing, banking and game development.\n\nWhat truly fascinates him about being a software engineer is how vastly different the domains we work against are. He's got deep respect for the domain experts we meet and the knowledge they possess. Working hard in cooperation creates valuable computer systems.",
     "twitterTag": "nilzor",
     "githubLink": "https://github.com/Nilzor"
