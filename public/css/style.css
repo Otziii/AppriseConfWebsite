@@ -198,7 +198,12 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 #speakers {
+    background-color: var(--secondaryColor);
     padding-bottom: 0;
+}
+
+#speakers .row-title {
+    color: white;
 }
 
 .speaker-cards-container {
@@ -270,6 +275,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .speaker-card {
+    background-color: white;
     max-width: 320px;
     min-height: 450px;
     border: 2px solid lightgray;
@@ -678,7 +684,6 @@ ul.speaker-social li a:hover {
 }
 
 .sponsor-container {
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -692,6 +697,7 @@ ul.speaker-social li a:hover {
 }
 
 .sponsor-tier-container a {
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 1px 3px lightgray;
 }
