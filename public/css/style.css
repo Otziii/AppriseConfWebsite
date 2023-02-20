@@ -447,7 +447,6 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .slot-speakers-container {
-    max-width: 160px;
     display: flex;
     flex-direction: column;
 }
@@ -456,6 +455,7 @@ a:hover, a:focus, a:active, a:visited {
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .slot-speaker {
@@ -470,6 +470,7 @@ a:hover, a:focus, a:active, a:visited {
 
 .slot-speaker span {
     margin-top: 5px;
+    max-width: 120px;
 }
 
 .slot-speaker img {
@@ -500,6 +501,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .slot-entry-body p {
+    white-space: pre-wrap;
     overflow: hidden;
     text-overflow: ellipsis;
     margin-top: auto;

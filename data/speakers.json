@@ -201,5 +201,16 @@
     "twitterTag": "salihgueler",
     "githubLink": "https://github.com/salihgueler",
     "website": "https://salih.dev"
+  },
+  {
+    "id": "021",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/rob.jpeg",
+    "name": "Rob Joseph",
+    "employer": "Rob J Ltd (Freelance)",
+    "bio": "Rob has been a freelance Android developer since 2012, has worked on 23+ different apps for over 23 clients (he's lost count!), launched over 10 apps personally on the Play Store, is a host of the Coffee & Coding podcast, have had apps features by the BBC, the Guardian, Lifehacker and more! and he even wrote a prototype app to intercept weather reports from a satellite the company has recently purchased!\n\nIn short, he's been doing android app development for a very long time and have had a lot more exposure to the industry than the norm.",
+    "twitterTag": "lowcarbrob",
+    "githubLink": "https://github.com/iamrobj",
+    "website": "https://robj.me"
   }
 ]

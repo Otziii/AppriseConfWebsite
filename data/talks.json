@@ -86,9 +86,9 @@
   {
     "id": "107",
     "type": "Talk",
-    "title": "How to accelerate your fundraising?",
-    "description": "Interested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money? Here is what to do!\n\nIn this interview style talk, Monica and Raja will discuss what entrepreneurs and startup-ers need to have in place before looking for investors.",
-    "shortDescription": "Interested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money? Here is what to do!",
+    "title": "How to accelerate your startup with fundraising?",
+    "description": "Interested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money to realise it? Here is what to do!\n\nIn this interview style talk, Monica and Raja will discuss what entrepreneurs and startup-ers need to have in place before looking for investors.",
+    "shortDescription": "Interested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money to realise it? Here is what to do!",
     "tags": [
       "Startup",
       "Inspirational"
@@ -200,8 +200,8 @@
     "id": "115",
     "type": "Talk",
     "title": "Lightning talks ⚡️",
-    "description": "- ChatGPT and your Mobile App Development Workflow -\nChatGPT has taken the world by storm and not just in software development circles. I've seen seasoned software engineers scoff at integrating ChatGPT into their software development workflow, but I ask: why? What are the benefits, the downsides, the risks?\n\n- Working NO-to-5 -\nWorking 9-5 is an overrated thing of the past. We are living in an increasingly fast-paced society and yet choose to lose 2-3 hours per day on travel? This does not compute.\n\n- Kotlin DSL. This language is broken, bring a new one! -\nA domain-specific language (DSL) is a computer language specialized to a particular application domain. This is in contrast to a general-purpose language (GPL), which is broadly applicable across domains. Kotlin allows you to write your own language as quickly as possible.",
-    "shortDescription": "Listen to great stories from different speakers in a rapid format!",
+    "description": "Listen to great stories from different speakers in a rapid format!\n\n- ChatGPT and your Mobile App Development Workflow -\nChatGPT has taken the world by storm and not just in software development circles. I've seen seasoned software engineers scoff at integrating ChatGPT into their software development workflow, but I ask: why? What are the benefits, the downsides, the risks?\n\n-----\n\n- Working NO-to-5 -\nWorking 9-5 is an overrated thing of the past. We are living in an increasingly fast-paced society and yet choose to lose 2-3 hours per day on travel? This does not compute.\n\n-----\n\n- Kotlin DSL. This language is broken, bring a new one! -\nA domain-specific language (DSL) is a computer language specialized to a particular application domain. This is in contrast to a general-purpose language (GPL), which is broadly applicable across domains. Kotlin allows you to write your own language as quickly as possible.",
+    "shortDescription": "ChatGPT and your Mobile App Development Workflow\n\n-----\n\nWorking NO-to-5\n\n-----\n\nKotlin DSL. This language is broken, bring a new one!",
     "tags": [
       "Lightning",
       "Inspirational"
@@ -215,6 +215,22 @@
   {
     "id": "116",
     "type": "Talk",
+    "title": "Lightning talks ⚡️",
+    "description": "Listen to great stories from different speakers in a rapid format!\n\n- How to accelerate your startup with fundraising? - \nInterested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money to realise it? Here is what to do!\n\nIn this interview style talk, Monica and Raja will discuss what entrepreneurs and startup-ers need to have in place before looking for investors.\n\n-----\n\n- 11 Years of Freelance App Development Experience -\nSince 2012 I’ve worked on over 23 different apps, for at least 23 clients, with user bases ranging from 1,000 to 100,000 to 1m+. I’ve worked for startups, corporates, agencies & solo founders - and I’ve seen it all.\n\nIn this talk I’m going to break down my time as a freelance app developer into the golden nuggets of wisdom I’ve picked up along the way to help you in your everyday career as an App developer.",
+    "shortDescription": "How to accelerate your startup with fundraising?\n\n-----\n\n11 Years of Freelance App Development Experience",
+    "tags": [
+      "Lightning",
+      "Inspirational"
+    ],
+    "speakerIds": [
+      "005",
+      "004",
+      "021"
+    ]
+  },
+  {
+    "id": "117",
+    "type": "Talk",
     "title": "Building a real-time quiz application with Jetpack Compose and AWS Amplify",
     "description": "With the Declarative UI taking over the world. Jetpack Compose also became \"the\" way that Android applications will be developed in the future. A lot of applications already embraced it and everybody enjoys it. But what if you want to see Jetpack Compose in action with a full serverless real-time/real life backend? Thankfully AWS Amplify comes to the rescue. AWS Amplify is a set of libraries that is provided to developers to create applications.\n\nIn this talk you will learn about how you can create and architect a real-time quiz application by using AWS Amplify and Jetpack Compose. You will learn the capabilities of AWS Amplify and how you can combine the power of it with Jetpack Compose.",
     "shortDescription": "With the Declarative UI taking over the world. Jetpack Compose also became \"the\" way that Android applications will be developed in the future.",
@@ -223,6 +239,19 @@
     ],
     "speakerIds": [
       "020"
+    ]
+  },
+  {
+    "id": "118",
+    "type": "Talk",
+    "title": "Coming soon!",
+    "description": "",
+    "shortDescription": "",
+    "tags": [
+    ],
+    "speakerIds": [
+      "011",
+      "012"
     ]
   }
 ]
