@@ -211,5 +211,18 @@
       "013",
       "007"
     ]
+  },
+  {
+    "id": "116",
+    "type": "Talk",
+    "title": "Building a real-time quiz application with Jetpack Compose and AWS Amplify",
+    "description": "With the Declarative UI taking over the world. Jetpack Compose also became \"the\" way that Android applications will be developed in the future. A lot of applications already embraced it and everybody enjoys it. But what if you want to see Jetpack Compose in action with a full serverless real-time/real life backend? Thankfully AWS Amplify comes to the rescue. AWS Amplify is a set of libraries that is provided to developers to create applications.\n\nIn this talk you will learn about how you can create and architect a real-time quiz application by using AWS Amplify and Jetpack Compose. You will learn the capabilities of AWS Amplify and how you can combine the power of it with Jetpack Compose.",
+    "shortDescription": "With the Declarative UI taking over the world. Jetpack Compose also became \"the\" way that Android applications will be developed in the future.",
+    "tags": [
+      "Android"
+    ],
+    "speakerIds": [
+      "020"
+    ]
   }
 ]
