@@ -466,11 +466,12 @@ a:hover, a:focus, a:active, a:visited {
     align-items: center;
     text-align: center;
     cursor: pointer;
+    max-width: 130px;
 }
 
 .slot-speaker span {
     margin-top: 5px;
-    max-width: 120px;
+    font-weight: bold;
 }
 
 .slot-speaker img {

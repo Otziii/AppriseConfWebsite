@@ -65,12 +65,12 @@ $(document).ready(function (e) {
                     if (speaker) {
                         speakerElement.children("img").attr("src", speaker.imgSrc)
                         speakerElement.children("span").text(speaker.name)
+                        speakerElement.children("p").text(speaker.employer)
                     }
                 })
 
                 let cardBody = card.children(".slot-entry-body")
                 cardBody.children("h5").text(talk.title)
-                cardBody.children("p").text(talk.shortDescription)
                 cardBody.children("p").text(talk.shortDescription)
                 let tags = cardBody.children(".slot-entry-tags");
                 tags.empty()
@@ -123,6 +123,7 @@ $(document).ready(function (e) {
                         speakerElement.css({"display": "flex"})
                         speakerElement.children("img").attr("src", speaker.imgSrc)
                         speakerElement.children("span").text(speaker.name)
+                        speakerElement.children("p").text(speaker.employer)
                         speakerElement.attr("id", "slot-speaker-" + speakerId)
                     }
                 } else {

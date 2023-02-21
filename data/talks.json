@@ -244,10 +244,13 @@
   {
     "id": "118",
     "type": "Talk",
-    "title": "Coming soon!",
-    "description": "",
-    "shortDescription": "",
+    "title": "UI Tests you won't hate",
+    "description": "UI tests can be both hard to write and a pain to maintain. In this talk we will walk you through some principles and tricks we've applied at two of the most used apps in Norway, Ruter and NRK TV.\n\nWe will share with you what we have learned and experienced in these projects, and discuss how UI-tests can be written to last, leveraged to verify analytics, and how snapshot-testing can be used to close the gap between UI- and unit-tests. We will also explore how to best tackle concurrency in Espresso and deal with legacy code and external dependencies. Finally, we will tie it all together with examples of how this can be run in CI.",
+    "shortDescription": "UI tests can be both hard to write and a pain to maintain. In this talk we will walk you through some principles and tricks we've applied at two of the most used apps in Norway, Ruter and NRK TV.",
     "tags": [
+      "iOS",
+      "Android",
+      "Testing"
     ],
     "speakerIds": [
       "011",
