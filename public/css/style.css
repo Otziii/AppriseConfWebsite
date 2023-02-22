@@ -2,6 +2,7 @@
     --primaryColor: #9B00E3;
     --secondaryColor: #002647;
     --secondaryColor50: rgba(0, 38, 71, 0.5);
+    --snowColor: #f1f1f1;
     --tertiaryColor: white;
     --darkTextColor: #383737;
     --backgroundTransparent: rgba(255, 255, 255, 0.7);
@@ -378,7 +379,9 @@ a:hover, a:focus, a:active, a:visited {
 
 .soft-header {
     margin-right: 20px;
-    background-color: var(--secondaryColor50);
+    background-color: var(--snowColor);
+    color: var(--secondaryColor) !important;
+    font-weight: bold;
 }
 
 .hard-header {
@@ -929,6 +932,7 @@ ul.footer-menu li a:hover {
         flex-direction: row;
         align-items: baseline;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .speaker-card {
