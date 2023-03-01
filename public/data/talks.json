@@ -215,8 +215,8 @@
   {
     "id": "116",
     "type": "Talk",
-    "title": "Lightning talks ⚡️",
-    "description": "Listen to great stories from different speakers in a rapid format!\n\n- How to accelerate your startup with fundraising? - \nInterested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money to realise it? Here is what to do!\n\nIn this interview style talk, Monica and Raja will discuss what entrepreneurs and startup-ers need to have in place before looking for investors.\n\n-----\n\n- 11 Years of Freelance App Development Experience -\nSince 2012 I’ve worked on over 23 different apps, for at least 23 clients, with user bases ranging from 1,000 to 100,000 to 1m+. I’ve worked for startups, corporates, agencies & solo founders - and I’ve seen it all.\n\nIn this talk I’m going to break down my time as a freelance app developer into the golden nuggets of wisdom I’ve picked up along the way to help you in your everyday career as an App developer.",
+    "title": "Half talks ⚡️",
+    "description": "Listen to great speakers help you with your startup or what you need to go freelance!\n\n- How to accelerate your startup with fundraising? - \nInterested in launching a startup and raising money from investors? Got a great idea and a plan, but need the money to realise it? Here is what to do!\n\nIn this interview style talk, Monica and Raja will discuss what entrepreneurs and startup-ers need to have in place before looking for investors.\n\n-----\n\n- 11 Years of Freelance App Development Experience -\nSince 2012 I’ve worked on over 23 different apps, for at least 23 clients, with user bases ranging from 1,000 to 100,000 to 1m+. I’ve worked for startups, corporates, agencies & solo founders - and I’ve seen it all.\n\nIn this talk I’m going to break down my time as a freelance app developer into the golden nuggets of wisdom I’ve picked up along the way to help you in your everyday career as an App developer.",
     "shortDescription": "How to accelerate your startup with fundraising?\n\n-----\n\n11 Years of Freelance App Development Experience",
     "tags": [
       "Lightning",
@@ -245,8 +245,8 @@
     "id": "118",
     "type": "Talk",
     "title": "UI Tests you won't hate",
-    "description": "UI tests can be both hard to write and a pain to maintain. In this talk we will walk you through some principles and tricks we've applied working with two of the most used apps in Norway, Ruter and NRK TV.\n\nWe will share with you what we have learned and experienced in these projects, and discuss how UI-tests can be written to last, leveraged to verify analytics, and how snapshot-testing can be used to close the gap between UI- and unit-tests. We will also explore how to best tackle concurrency in Espresso and deal with legacy code and external dependencies. Finally, we will tie it all together with examples of how this can be run in CI.",
-    "shortDescription": "UI tests can be both hard to write and a pain to maintain. In this talk we will walk you through some principles and tricks we've applied working with two of the most used apps in Norway, Ruter and NRK TV.",
+    "description": "UI tests can be both hard to write and a pain to maintain. In this talk we will walk you through some principles and tricks we've applied at two of the most used apps in Norway, Ruter and NRK TV.\n\nWe will share with you what we have learned and experienced in these projects, and discuss how UI-tests can be written to last, leveraged to verify analytics, and how snapshot-testing can be used to close the gap between UI- and unit-tests. We will also explore how to best tackle concurrency in Espresso and deal with legacy code and external dependencies. Finally, we will tie it all together with examples of how this can be run in CI.",
+    "shortDescription": "UI tests can be both hard to write and a pain to maintain. In this talk we will walk you through some principles and tricks we've applied at two of the most used apps in Norway, Ruter and NRK TV.",
     "tags": [
       "iOS",
       "Android",
