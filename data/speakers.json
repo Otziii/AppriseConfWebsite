@@ -222,5 +222,34 @@
     "bio": "Darren is a Lead Developer at Invertase, specialising in maintaining and developing Firebase Extensions. He also has a keen interest in web and mobile technologies such as JavaScript and Progressive web apps.\n\nDarren is also a workshop holder at Apprise Conf!",
     "twitterTag": "dacks_developer",
     "website": "https://invertase.io/blog"
+  },
+  {
+    "id": "023",
+    "keynote": false,
+    "imgSrc": "/public/img/crew/Teresa.jpeg",
+    "name": "Teresa Wu",
+    "employer": "",
+    "bio": "Teresa is a public speaker, mentor, and software engineer who is passionate about front-end development and Cloud technology. She has been working with many talented developers to craft various apps and projects throughout the years, and she likes to explore the world of multi-platform, the fun of continuous delivery, and seeing through the product from development to release.",
+    "twitterTag": "teresa_wyy"
+  },
+  {
+    "id": "024",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/jason.jpeg",
+    "name": "Jason Toms",
+    "employer": "Shortcut",
+    "bio": "Jason is currently one of the Android leads at Shortcut, one of the biggest mobile-specific consulting companies in Europe. He's been an Android developer for 7 years, and have worked on apps like NRK TV, Vipps, and BankID.",
+    "githubLink": "https://github.com/jasonctoms",
+    "website": "https://linkedin.com/in/jasonctoms/"
+  },
+  {
+    "id": "025",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/janvidar.jpeg",
+    "name": "Jan Vidar Krey",
+    "employer": "Promon",
+    "bio": "Jan Vidar is Head of Engineering at mobile app security provider Promon where he leads engineering, product development and deliveries. He joined Promon in 2014 from Opera Software where he was Chief Security Officer for its commercial mobile web browser business.",
+    "twitterTag": "promon_shield",
+    "website": "https://linkedin.com/in/jan-vidar-krey-2a249736"
   }
 ]
