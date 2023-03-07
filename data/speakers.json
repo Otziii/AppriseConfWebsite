@@ -212,5 +212,15 @@
     "twitterTag": "lowcarbrob",
     "githubLink": "https://github.com/iamrobj",
     "website": "https://robj.me"
+  },
+  {
+    "id": "022",
+    "keynote": false,
+    "imgSrc": "/public/img/speakers/darren.jpeg",
+    "name": "Darren Ackers",
+    "employer": "Invertase",
+    "bio": "Darren is a Lead Developer at Invertase, specialising in maintaining and developing Firebase Extensions. He also has a keen interest in web and mobile technologies such as JavaScript and Progressive web apps.\n\nDarren is also a workshop holder at Apprise Conf!",
+    "twitterTag": "dacks_developer",
+    "website": "https://invertase.io/blog"
   }
 ]
