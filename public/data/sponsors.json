@@ -1,0 +1,65 @@
+[
+  {
+    "id": "201",
+    "name": "Forse",
+    "level": 1,
+    "link": "https://forse.no/",
+    "logo": "img/sponsor-logos/forse_logo.svg"
+  },
+  {
+    "id": "202",
+    "name": "Promon",
+    "level": 1,
+    "link": "https://promon.co/",
+    "logo": "img/sponsor-logos/promon.png"
+  },
+  {
+    "id": "203",
+    "name": "Shortcut",
+    "level": 1,
+    "link": "https://shortcut.io/",
+    "logo": "img/sponsor-logos/shortcut_black.png"
+  },
+  {
+    "id": "204",
+    "name": "Fotmob",
+    "level": 1,
+    "link": "https://www.fotmob.com/",
+    "logo": "img/sponsor-logos/fotmob.svg"
+  },
+  {
+    "id": "205",
+    "name": "Invertase",
+    "level": 1,
+    "link": "https://invertase.io/",
+    "logo": "img/sponsor-logos/invertase.svg"
+  },
+  {
+    "id": "206",
+    "name": "Forte Digital",
+    "level": 1,
+    "link": "https://fortedigital.no/",
+    "logo": "img/sponsor-logos/Forte_Logo_vertical_black.svg"
+  },
+  {
+    "id": "207",
+    "name": "Bouvet",
+    "level": 1,
+    "link": "https://www.bouvet.no/",
+    "logo": "img/sponsor-logos/Bouvet_Logo_blue.png"
+  },
+  {
+    "id": "208",
+    "name": "Fink",
+    "level": 1,
+    "link": "https://www.fink.no/",
+    "logo": "img/sponsor-logos/fink-logo.png"
+  },
+  {
+    "id": "209",
+    "name": "Finn",
+    "level": 1,
+    "link": "https://www.finn.no/jobbeifinn",
+    "logo": "img/sponsor-logos/finn.png"
+  }
+]
