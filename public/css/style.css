@@ -1044,3 +1044,22 @@ ul.footer-menu li a:hover {
     margin-top: 40px;
     font-size: 20px;
 }
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.small > img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 5px;
+}
+
+.info-text {
+    width: 100%;
+    text-align: center;
+}

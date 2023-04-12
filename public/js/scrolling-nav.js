@@ -8,6 +8,13 @@ $(document).ready(function (e) {
         $('#tab-day-1').addClass("active")
         $('#tab-day-2').removeClass("active")
     }
+
+    // As A jQuery Plugin -->
+    var gallery = $('.gallery a').simpleLightbox({
+        /* options */
+    });
+
+    console.log(gallery)
 });
 
 $(function() {
